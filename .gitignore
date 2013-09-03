@@ -1,6 +1,14 @@
-# data/ directory #
-###################
-data/
+# emacs ~ files #
+#################
+*~
+
+# data/RITA directory #
+#######################
+data/RITA
+
+# .csv files #
+##############
+*.csv
 
 # ipynb checkpoints #
 #####################
