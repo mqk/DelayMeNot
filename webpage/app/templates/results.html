@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+{% block content %}
+
+
+    <div class="page-header">
+      <h1>Results</h1>
+      <p class="lead">Delay information for a {{ flight_info.carrier }} flight from {{ flight_info.origin }} to {{ flight_info.destination }} departing at {{ flight_info.departure_time }} on {{ flight_info.departure_date }}.</p>
+    </div>
+
+    <form class="form-inline" action="">
+      <div class="row">	    
+	<div class="col-md-7">
+	  
+	  <select class="form-control" name="groupings" onchange="show_grouping(this.selectedIndex);">
+	    <option value="-1">All groupings</option>
+	    {% for group in groupings_order %}
+	    <option value="{{ loop.index }}">{{ group }}</option>
+	    {% endfor %}
+	  </select>
+
+	</div>
+      </div>
+    </form>
+
+    <table class="table table-hover table-condensed">
+      <thead>
+	<tr>
+	  <th>Grouping</th>
+	  <th>Nflights</th>
+	  <th> <div rel="tooltip" data-toggle="tooltip" data-placement="top" title="delay < &ndash;15 min" data-delay=0> P(early) </div></th>
+	  <th> <div rel="tooltip" data-toggle="tooltip" data-placement="top" title="&ndash;15 min < delay &le; 30 min"> P(on time) </div></th>
+	  <th> <div rel="tooltip" data-toggle="tooltip" data-placement="top" title="delay > 30 min"> P(late) </div></th>
+	  <th> <div rel="tooltip" data-toggle="tooltip" data-placement="top" title="delay > 60 min"> P(very late) </div></th>
+	</tr>
+      </thead>
+
+      <tbody class="text-center" id="results_table">
+
+	{% for row in stats_info %}
+        <tr id="row{{ loop.index0 }}">
+	  <td class="text-left"> {{ row.Grouping }} </td>
+	  <td> {{ row.NumFlights }} </td>
+	  <td> {{ row.early[1] }} </td>
+	  <td> {{ row.ontime[1] }} </td>
+	  <td> {{ row.late[1] }} </td>
+	  <td> {{ row.verylate[1] }} </td>
+	</tr>
+        {% endfor %}
+      </tbody>
+
+    </table>
+
+<script type="text/javascript">
+window.onload = function(){
+    var e=document.getElementsByName('groupings')[0];
+    e.selectedIndex = {{ best_grouping }};
+    show_grouping({{ best_grouping }});
+}
+</script>
+
+
+{% endblock %}
+
+

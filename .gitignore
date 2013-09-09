@@ -5,3 +5,17 @@ data/
 # ipynb checkpoints #
 #####################
 */.ipynb_checkpoints/
+
+# emacs stuff #
+###############
+*~
+#*#
+
+# python stuff #
+################
+*.pyc
+*.pkl
+
+# webpage/bootstrap #
+#####################
+webpage/bootstrap-3.0.0
