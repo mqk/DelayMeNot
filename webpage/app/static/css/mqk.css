@@ -1,3 +1,16 @@
 #flightform_go {
     margin-top:19px;
 }
+
+.popover {
+    max-width: 400px;
+    width: auto;
+}
+
+.popover ol li {
+    font-size:75%;
+}
+
+.popover ol {
+    margin-bottom:0;
+}

@@ -2,14 +2,14 @@
 	font-family:arial;
 	background-color: #CDCDCD;
 	margin:10px 0pt 15px;
-	font-size: 8pt;
+	font-size: 12pt;
 	width: 100%;
 	text-align: left;
 }
 #results_table thead tr th, #results_table tfoot tr th {
 	background-color: #e6EEEE;
 	border: 1px solid #FFF;
-	font-size: 8pt;
+	font-size: 12pt;
 	padding: 4px;
 }
 #results_table thead tr .header {

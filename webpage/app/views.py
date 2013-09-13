@@ -84,25 +84,48 @@ def results():
     flightstats = gfs.parse_flightstats_json(fs_json)
     flights = DataFrame( gfs.flatten_flightstats(flightstats) )
 
-    Pdelay_dict = am.apply_RF_model(flights,request_info['origin'])
+    Pdelay_dict_orig, Pdelay_dict_dest, model_summary_orig, model_summary_dest = am.apply_RF_model(flights,request_info['origin'],request_info['destination'])
 
-    assign_Pdelay = lambda x: Pdelay_dict[x] if x in Pdelay_dict.keys() else -1.0
 
+    def assign_Pdelay(fid, Pdelay_dict_orig, Pdelay_dict_dest):
+        if fid in Pdelay_dict_dest.keys():
+            return Pdelay_dict_dest[fid]
+        elif fid in Pdelay_dict_orig.keys():
+            return Pdelay_dict_orig[fid]
+        else:
+            return -1.0
+    
     color_norm = Normalize(0.0,0.5)
     
     for fs in flightstats:
-        ## Pdelay = [ Pdelay_dict[x] for x in fs['FlightID'] ]
-        Pdelay = [ assign_Pdelay(x) for x in fs['FlightID'] ]
-        ## Pdelay = np.random.uniform(size=len(fs['FlightID']))
+
+        ### Pdelay = np.random.uniform(size=len(fs['FlightID']))
+
+        Pdelay = [ assign_Pdelay(x, Pdelay_dict_orig, Pdelay_dict_dest) for x in fs['FlightID'] ]
         
         fs['IconColor'] = [rgb2hex( cmap(color_norm(x)) ) for x in Pdelay]
         fs['DelayProbability'] = ['%.1f%%' % (100.0*x) for x in Pdelay]
 
-            
+
+    ### model summaries
+    model_summaries = {}
+
+    if model_summary_orig:       
+        importance, feature = zip(* sorted( zip(model_summary_orig['feature_importances'],model_summary_orig['training_columns']), reverse=True ) )
+        model_summary_orig['top5_features'] = [(feature[i],importance[i]) for i in xrange(5)]
+        model_summaries['origin'] = model_summary_orig
+
+    if model_summary_dest:
+        importance, feature = zip(* sorted( zip(model_summary_dest['feature_importances'],model_summary_dest['training_columns']), reverse=True ) )
+        model_summary_dest['top5_features'] = [(feature[i],importance[i]) for i in xrange(5)]
+        model_summaries['destination'] = model_summary_dest
+
     ### Render the page
     return render_template('results.html',
+                           title='Results',
                            request_info=request_info,
-                           flightstats=flightstats)
+                           flightstats=flightstats,
+                           model_summaries=model_summaries)
     
 
 

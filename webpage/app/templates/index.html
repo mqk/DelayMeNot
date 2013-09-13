@@ -20,7 +20,7 @@
 
 	  <div class="row">	    
 	    <div class="col-md-3">
-		{{form1.date(size=10, class_="form-control", placeholder="Date")}}
+		{{form1.date(size=10, class_="form-control", placeholder="Date", id="dp1")}}
 	    </div>
 	    <div class="col-md-3">
 		{{form1.origin(size=20, class_="form-control", placeholder="From")}}
@@ -43,7 +43,7 @@
 
 	  <div class="row">	    
 	    <div class="col-md-3">
-		{{form2.date(size=10, class_="form-control", placeholder="Date")}}
+		{{form2.date(size=10, class_="form-control", placeholder="Date", id="dp2")}}
 	    </div>
 	    <div class="col-md-3">
 		{{form2.carrier(size=20, class_="form-control", placeholder="Carrier", id="carrier_field")}}
@@ -63,6 +63,15 @@
     </div>
 
     <script>
+      $('#dp1').datepicker({
+        format: 'mm/dd/yyyy'
+      });
+
+      $('#dp2').datepicker({
+        format: 'mm/dd/yyyy'
+      });
+
+
       $('#carrier_field').typeahead({
         name: 'carrier',
 	local: {{ carriers | safe }}

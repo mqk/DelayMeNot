@@ -11,7 +11,45 @@
 	  <a href="#" id="model_info" class="btn btn-sm btn-info"
 	     data-toggle="popover" title="Model Details" data-html="true"
 	     data-placement="bottom"
-	     data-content="<div style='font-size:75%;'>Number of flights in training data set = 120000 <br> Time to train = 6100 sec <br> Number of flights in test data set = 60000</div>">
+	     data-content="<div style='font-size:100%;'>
+                 <b> Origin Model </b> <br>
+                 Number of flights in training data = {{ model_summaries.origin.training.NumFlights }} <br> 
+		 Time to train = {{ '%.1f' % (model_summaries.origin.time_to_train|float) }} sec <br> 
+                 Error rate = {{ '%.1f' % (model_summaries.origin.test.ErrorRate*100.0|float) }} % <br>
+<!--
+                 False positive rate = {{ '%.1f' % (model_summaries.origin.test.FalsePositiveRate*100.0|float) }} % <br>
+                 False negative rate = {{ '%.1f' % (model_summaries.origin.test.FalseNegativeRate*100.0|float) }} % <br>
+-->
+                 Precision = {{ '%.1f' % (model_summaries.origin.test.Precision*100.0|float) }} % <br>
+                 Recall = {{ '%.1f' % (model_summaries.origin.test.Recall*100.0|float) }} % <br>
+		 Top 5 features: <br>
+		 <ol>
+		 {% for feat_imp in model_summaries.origin.top5_features %}
+		    <li> {{ feat_imp[0] }} </li>
+		 {% endfor %}
+		 </ol>
+
+               {% if model_summaries.destination is defined %}
+		 <br>
+                 <b> Destination Model </b> <br>
+                 Number of flights in training data = {{ model_summaries.destination.training.NumFlights }} <br> 
+		 Time to train = {{ '%.1f' % (model_summaries.destination.time_to_train|float) }} sec <br> 
+                 Error rate = {{ '%.1f' % (model_summaries.destination.test.ErrorRate*100.0|float) }} % <br>
+<!--
+                 False positive rate = {{ '%.1f' % (model_summaries.destination.test.FalsePositiveRate*100.0|float) }} % <br>
+                 False negative rate = {{ '%.1f' % (model_summaries.destination.test.FalseNegativeRate*100.0|float) }} % <br>
+-->
+                 Precision = {{ '%.1f' % (model_summaries.destination.test.Precision*100.0|float) }} % <br>
+                 Recall = {{ '%.1f' % (model_summaries.destination.test.Recall*100.0|float) }} % <br>
+		 Top 5 features: <br>
+		 <ol>
+		 {% for feat_imp in model_summaries.destination.top5_features %}
+		    <li> {{ feat_imp[0] }} </li>
+		 {% endfor %}
+		 </ol>
+               {% endif %}
+
+             </div>">
 	  View model details</a>
 	</div>
 	<script> $('#model_info').popover() </script>
@@ -52,9 +90,12 @@
 	  <td class="delay_probability">
             {{row.DelayProbability[0]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[0]}};"></i>
             {% if row.Nlegs > 1 %}
-              <br> 
-              &hellip; &nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-plane" style="color:#D3D3D3;">
-              <!-- {{row.DelayProbability[1]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[1]}};"> -->
+              <br>
+	      {% if row.DelayProbability[1] == "-100.0%" %} 
+		&hellip; &nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-plane" style="color:#D3D3D3;">
+	      {% else %}
+                {{row.DelayProbability[1]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[1]}};">
+              {% endif %}
             {% endif %}
           </td>
 	</tr>
