@@ -1,0 +1,393 @@
+A2	Cielos De Peru
+A4	Southern Wind Airlines
+A7	Air Comet S.A.
+AA	American Airlines
+AC	Air Canada
+AD	Avia Leasing Company
+AE	Air Europe Limited
+AF	Air France
+AI	Air-India
+AJ	Air Micronesia
+AL	Skyway Airlines
+AM	Aeromexico
+AO	Aviacion Y Comercio S.A.
+AQ	Aloha Airlines
+AR	Aerolineas Argentinas
+AS	Alaska Airlines
+AT	Royal Air Maroc
+AV	Aerovias Nac'l De Colombia
+AX	Trans States Airlines
+AY	Finnair Oy
+AZ	Alitalia-Linee Aeree Italia
+B6	JetBlue Airways
+BA	British Airways Plc
+BD	British Midland Airways
+BE	Braniff International Airlines
+BF	Markair
+BG	Biman Bangladesh Airlines
+BM	Belize Air International
+BN	Britannia Airways GmbH
+BQ	Aeromar C. Por A.
+BR	Eva Airways Corporation
+BW	British West Indian Airways
+BY	Britannia Airways
+C5	Commutair Aka Champlain Enterprises
+C6	Canjet Airlines
+C8	Chicago Express Airlines
+CA	Air China
+CB	Air One
+CC	Air Atlanta Icelandic
+CF	Compan. De Aviacion Faucett
+CH	Bemidji Airlines
+CI	China Airlines
+CJ	Colgan Airways
+CK	China Cargo Airline
+CL	Capitol International
+CM	Compania Panamena
+CO	Continental Air Lines
+CP	Compass Airlines
+CS	Continental Micronesia
+CV	Cargolux Airlines International S.A
+CW	Air Marshall Islands
+CX	Cathay Pacific Airways
+CZ	China Southern Airlines
+DA	Dan Air Services
+DC	Caribbean Air Cargo Co
+DE	Condor Flugdienst
+DH	Independence Air
+DL	Delta Air Lines
+DM	Maersk Air I/S
+DO	Compania Dominicana De Avia
+E0	Eos Airlines
+E7	Estafeta Carga Aereas
+E8	USAfrica Airways
+E9	Boston-Maine Airways
+EA	Eastern Air Lines
+ED	Andes
+EH	Saeta Airlines
+EI	Aer Lingus Plc
+EK	Emirates
+EM	Empire Airlines
+EP	All Star Airlines
+ER	Astar Air Cargo
+ET	Ethiopian Airlines
+EU	Ecuatoriana De Aviacion
+EV	Atlantic Southeast Airlines
+EY	Etihad Airways
+EZ	Evergreen International
+F9	Frontier Airlines
+FB	Translift Airways Limited
+FD	Air Puerto Rico Airlines
+FE	Primaris Airlines
+FF	Tower Air
+FH	Frontier Horizon
+FI	Icelandair
+FJ	Air Pacific
+FL	AirTran Airways Corporation
+FQ	Air Aruba
+FS	Serv De Trans Aereos Fuegui
+FT	Flying Tiger Line
+FW	Skybus
+FX	Federal Express Corporation
+G3	Aerochago S.A.
+G4	Allegiant Air
+GA	P.T. Garuda Indonesian Arwy
+GD	Transp. Aereos Ejecutivos
+GE	Lufthansa Cargo Airlines
+GF	Gulf Air Company
+GG	Cargo 360
+GH	Ghana Airways Corporation
+GJ	Eurofly S.p.A
+GL	Miami Air International
+GM	Air America
+GQ	Big Sky Airlines
+GR	Gemini Air Cargo Airways
+GS	Air Foyle Limited
+GU	Aviateca
+GV	Grant Aviation
+GW	Central American Airlines
+GX	Air Ontario Limited
+GY	Guyana Airways Corporation
+H2	City Bird
+H5	Magadan Airlines
+H6	Hageland Aviation Service
+HA	Hawaiian Airlines
+HB	Homer Air
+HJ	Air Haiti S. A.
+HK	Time Air Sweden Ab
+HP	America West Airlines
+HQ	Harmony Airways
+HU	Hainan Airlines Company Limited
+HX	Guy-America Airways
+HY	Uzbekistan Airways
+IA	Iraqi Airways
+IB	Iberia Air Lines Of Spain
+IN	Aerlinte Eireann Teoranta
+IR	Iran National Airlines Corp
+IS	Island Airlines
+IW	Air Liberte Aka Aom Minerve
+J5	Alaska Seaplane Service
+J6	Larrys Flying Service
+J7	Valujet Airlines
+JB	Helijet International
+JD	Japan Air System
+JF	L.A.B. Flying Service
+JI	Jade Cargo International
+JJ	Transportes Aeros Meridiona
+JK	Spanair S.A.
+JL	Japan Air Lines
+JM	Air Jamaica Limited
+JN	Excel Airways
+JO	Jalways
+JR	Aero California
+JU	Yugoslav Airlines
+JW	Arrow Air
+JX	Southeast Airlines
+JZ	Japan Air Charter
+K5	Wings Of Alaska
+K7	Arizona Express
+K8	Dutch Caribbean Airlines
+KA	Hong Kong Dragonair
+KB	Haiti Air
+KE	Korean Air Lines
+KI	Time Air
+KL	Klm Royal Dutch Airlines
+KM	Air Malta
+KN	Morris Air Corporation
+KO	Alaska Central Express
+KP	Kiwi International
+KR	Kitty Hawk Aircargo
+KS	Peninsula Airways
+KU	Kuwait Airways Corp.
+KW	Carnival Air Lines
+KX	Cayman Airways Limited
+KZ	Nippon Cargo Airlines
+L2	Lynden Air Cargo Airlines
+LA	Lan-Chile Airlines
+LB	Lloyd Aereo Boliviano S. A.
+LC	Varig Logistica S/A
+LF	Jettrain Airlines
+LG	Luxair
+LH	Lufthansa German Airlines
+LO	Polskie Linie Lotnicze
+LP	Lan Peru Airlines
+LR	Lacsa
+LT	Luftransport-Unternehmen
+LU	Air Atlantic Dominicana
+LW	Pacific Wings Airlines
+LX	Swiss International Airlines
+LY	El Al Israel Airlines
+LZ	Balkan Bulgarian Airlines
+M3	ABSA-Aerolinhas Brasileiras
+M6	Amerijet International
+M7	Aerotransportes Mas De Crga
+MA	Malev Hungarian Airlines
+MB	Samoa Airlines
+MC	Transtar Airlines Corp.
+ME	Middle East Airlines S.A.L.
+MG	Champion Air
+MH	Malaysian Airline System
+MJ	Lapa-Lineas Aereas Privadas
+ML	Aero Costa Rica
+MM	Euro Atlantic Airways
+MP	Martinair Holland N.V.
+MQ	American Eagle Airlines
+MS	Egyptair
+MT	Flying Colours Airlines
+MU	China Eastern Airlines
+MX	Compania Mexicana De Aviaci
+MY	MAXjet
+MZ	P.N. Merpati Nusantara Air.
+N5	Skagway Air Service
+N6	Aero Continente
+N7	National Airlines
+NB	Sterling Cargo
+NC	Northern Air Cargo
+ND	Intair dba Intair
+NG	Lauda Air Luftfahrt Ag
+NH	All Nippon Airways
+NI	Lanica
+NJ	Vanguard Airlines
+NK	Spirit Air Lines
+NN	Northward Airlines
+NQ	Air Japan Co
+NW	Northwest Airlines
+NY	New York Air
+NZ	Air New Zealand
+OA	Olympic Airways
+OB	Oasis International Airlines S.A.
+OC	Air California
+OD	Emerald Airlines
+OE	Westair Airlines
+OH	Comair
+OI	Prestige Airways
+OK	Czech Airlines
+ON	Air Nauru
+OO	Skywest Airlines
+OP	Flying Boat
+OR	TUI Airlines Nederland B.V.
+OS	Austrian Airlines
+OV	Aeromaritime
+OW	Executive Airlines
+OZ	Asiana Airlines
+P9	Pro Air
+PA	Florida Coastal Airlines
+PD	Porter Airlines
+PE	Air Europe S.P.A.
+PH	Polynesian Airlines
+PI	Piedmont Aviation
+PK	Pakistan International Airlines
+PL	Aero Peru
+PN	Pan American Airways Corp.
+PO	Polar Air Cargo Airways
+PR	Philippine Airlines
+PS	Pacific Southwest Airlines
+PT	Capital Cargo International
+PU	Primeras Lineas Uruguays For International
+PV	Eastern Provincial Airways
+PW	Pacific Western Airlines
+PY	Surinam Airways Limited
+PZ	Lineas Aereas Paraguayas
+Q2	Zambia Airways Corp.
+Q4	Master Top Linhas Aereas, Ltda.
+Q5	40-Mile Air
+Q7	Sobelair
+QB	Inter-Quebec
+QD	Grand Airways
+QF	Qantas Airways
+QG	Sky West Aviation
+QH	Air Florida
+QK	Air Canada Regional
+QN	Royal Air
+QO	Aeromexpress
+QQ	Reno Air
+QR	Qatar Airways
+QS	Northeastern International Airways
+QT	Transportes Aereos Mercantiles Panamericanos S.A
+QX	Horizon Air
+RB	Syrian Arab Airlines
+RC	Republic Airlines
+RD	Ryan International Airlines
+RG	Varig S. A.
+RJ	Alia - Royal Jordanian
+RK	Air Afrique
+RL	UltrAir
+RO	Tarom Romanian Air Transpor
+RP	Chautauqua Airlines
+RV	Reeve Aleutian Airways
+RW	Republic Airlines
+RY	Redcoat Air Cargo Limited
+S3	Santa Barbara Airlines, C.A
+S4	Sata Internacional
+S5	Shuttle America Corp.
+S6	Star Air A/S
+SA	South African Airways
+SE	Das Air Cargo
+SG	Jetsgo
+SH	Servicio Aereo De Honduras
+SI	Sierra Pacific Airlines
+SK	Scandinavian Airlines Sys.
+SM	Sunworld International Airlines
+SN	Sabena Belgian World Air.
+SO	Swiss World Airways
+SQ	Singapore Airlines
+SR	Swissair Transport
+ST	Belize Airways Limited
+SU	Aeroflot Russian Airlines
+SV	Saudi Arabian Airlines Corp
+SX	Skybus Airlines
+T3	Tristar Airlines
+T9	Transmeridian Airlines
+TA	Taca International Airlines
+TB	USAir Shuttle
+TG	Thai Airways International
+TH	Transmile Air Service
+TJ	Jet Charter Service
+TK	Turk Hava Yollari A.O.
+TN	Air Tahiti Nui
+TP	Tap-Portuguese Airlines
+TR	Transbrasil S.A.
+TS	Air Transat
+TV	Haiti Trans Air
+TW	Trans World Airways LLC
+TX	Soc.Nouvelle Air Guadeloupe
+U2	UFS
+U5	USA 3000 Airlines
+U7	USA Jet Airlines
+UA	United Airlines
+UC	Ladeco
+UD	Fast Air Carrier
+UH	US Helicopter Corporation
+UN	Transaero Airlines
+UP	Bahamasair Holding Limited
+UR	Empire Airlines
+US	US Airways
+UT	Union De Transports Aeriens
+UX	Air Europa
+V4	Vensecar International
+V5	J.D.Valenciana De Aviation
+V8	Iliamna Air Taxi
+V9	Eagle Airlines
+VA	Venezuelan International Airways
+VB	Pacific Express
+VC	Servicios Avensa
+VE	Aerovias Venezolanas-Avensa
+VH	Aeropostal Alas De Venezuel
+VI	Vieques Air Link
+VK	Air Tungaru Corporation
+VL	Mid-South Aviation
+VP	Viacao Aerea Sao Paulo
+VQ	Vintage Props & Jets
+VR	Transportes Aereos De Cabo
+VS	Virgin Atlantic Airways
+VV	Aerosvit Ukranian Airlines
+VX	Virgin America
+VY	Highland Express Airways
+W4	Mn Aviation
+W7	Western Pacific Airlines
+W8	Cargojet Airways
+W9	Eastwind Airlines
+WA	Worldwide Airlines Services
+WC	Wien Air Alaska
+WD	Halisa Air
+WE	Centurion Cargo
+WG	Sunwing Airlines
+WI	Tradewinds Airlines
+WL	World Air Network
+WM	Windward Islands Airways
+WN	Southwest Airlines
+WO	World Airways
+WP	Island Air Hawaii
+WS	Westjet
+WT	Nigeria Airways
+WV	Air South
+X9	Omni Air Express
+XC	Air Caribbean
+XE	Expressjet Airlines
+XF	Vladivostok Air
+XJ	Mesaba Airlines
+XK	Aerotal
+XL	Lan Ecuador
+XP	Casino Express
+XV	Presidential Airways
+XY	Munz Northern Airlines
+Y8	Yangtze River Express Airlines Company
+YB	Trans Continental Airlines
+YM	Royal West Airlines
+YV	Mesa Airlines
+YX	Midwest Airline
+Z3	PM Air
+ZA	Accessair Holdings
+ZB	Monarch Airlines
+ZE	Lineas Aereas Azteca
+ZK	Great Lakes Airlines
+ZL	Affretair
+ZN	Key Airlines
+ZO	Florida Express
+ZP	Air St. Thomas
+ZQ	Caribbean Sun Airlines
+ZS	Hispaniola Airways
+ZV	Air Midwest
+ZW	Air Wisconsin Airlines Corp
+ZX	Air Georgian
+ZY	Atlantic Gulf Airlines

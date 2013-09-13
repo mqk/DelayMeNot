@@ -1,105 +1,103 @@
 from flask import render_template, flash, redirect, request, url_for
 from app import app
-from forms import FlightForm
+from forms import LookingForFlightForm, AlreadyHaveAFlightForm
 import my_utils as mu
 
 @app.route('/', methods = ['GET', 'POST'])
 @app.route('/index', methods = ['GET', 'POST'])
 def index():    
 
-    form = FlightForm()
+    form1 = LookingForFlightForm()
+    form2 = AlreadyHaveAFlightForm()
 
-    if form.validate_on_submit():
-        ## flash( ('     Origin = "%s"' % form.origin.data) )
-        ## flash( ('Destination = "%s"' % form.destination.data) )
-        ## flash( ('       Date = "%s"' % form.date.data) )
-
-                
-        print ('    Carrier = "%s"' % mu.carrier_dict[form.carrier.data])
-        print ('     Origin = "%s"' % form.origin.data)
-        print ('Destination = "%s"' % form.destination.data)
-        print ('   DateTime = "%s"' % form.datetime.data)
+    if form1.validate_on_submit():
+        print ('       Date = "%s"' % form1.date.data)
+        print ('     Origin = "%s"' % form1.origin.data)
+        print ('Destination = "%s"' % form1.destination.data)
 
         
         return redirect(url_for('.results',
-                                carrier= form.carrier.data,
-                                origin=form.origin.data,
-                                destination=form.destination.data,
-                                datetime=form.datetime.data))
-                                       
-    return render_template('index.html', form=form)
+                                date=form1.date.data,
+                                origin=form1.origin.data,
+                                destination=form1.destination.data))
+
+    if form2.validate_on_submit():
+        print ('        Date = "%s"' % form2.date.data)
+        print ('     Carrier = "%s"' % form2.carrier.data)
+        print ('FlightNumber = "%s"' % form2.flightnumber.data)
+
+        
+        return redirect(url_for('.results',
+                                date=form2.date.data,
+                                carrier=form2.carrier.data,
+                                flightnumber=form2.flightnumber.data))
+    
+    carrier_dict_name, _ = mu.read_carrier_dict()
+    carriers = carrier_dict_name.values()
+    return render_template('index.html', form1=form1, form2=form2, carriers=carriers)
 
 
 @app.route('/results')
 def results():
-    import db_access as dba
-    from datetime import datetime
+    import numpy as np
+    from pandas import DataFrame
+    import matplotlib.pyplot as plt
+    from matplotlib.colors import LinearSegmentedColormap,rgb2hex
+    import datetime
 
-    departure_datetime = datetime.strptime(request.args['datetime'], '%Y-%m-%d %H:%M:%S')
-    departure_date = departure_datetime.strftime('%a, %b %d %Y')
-    departure_time = departure_datetime.strftime('%I:%M %p')
-    
-    ### flight_info is passed to render_template for results.html 
-    flight_info = {'carrier':mu.carrier_dict[request.args['carrier']],
-                   'origin':request.args['origin'],
-                   'destination':request.args['destination'],
-                   'departure_date':departure_date,
-                   'departure_time':departure_time}
+    import get_flightstats as gfs
+    import apply_RF_model as am
+        
+    ## cmap = plt.get_cmap('RdYlGn_r')
+    cdict = {'red': ((0.0, 0.0, 0.0),
+                     (1.0, 1.0, 1.0)),
+            'green': ((0.0, 1.0, 1.0),
+                      (1.0, 0.0, 0.0)),
+            'blue': ((0.0, 0.0, 0.0),
+                     (1.0, 0.0, 0.0))}
+    cmap = LinearSegmentedColormap('my_colormap', cdict, 100)
 
-    
-    ### Set up a flight from the date
-    tmt = departure_datetime.timetuple()
-    flight = {}
-    flight['DateTime'] = departure_datetime
-    flight['Carrier'] = request.args['carrier']
-    flight['DayOfYear'] = tmt.tm_yday
-    flight['Month'] = tmt.tm_mon
-    flight['Week'] = tmt.tm_yday / 7
-    flight['DayOfWeek'] = tmt.tm_wday + 1  ## Monday = 1
-    flight['DepHour'] = tmt.tm_hour
-    del tmt
-
-
-    ### Connection to MySQL database
-    db, cur = dba.connect()
-
-    ### Retrieve all flights with the selected origin and destination
-    df = dba.get_flights_from_route(cur, flight_info['origin'], flight_info['destination'])
-
-    ### Calculate statistics
-    dstats = dba.delay_statistics(flight, df)
-
-    ### Close MySQL connection.
-    dba.close_up(db, cur)
-
-
-    """
-    ### Hardwired, for development        
-    import cPickle
-    f = open('test.pkl','rb')
-    dstats = cPickle.load(f)
-    f.close()
-    dstats.index.name = 'Grouping'
-    """
-    
-    ### Sort dataframe into descending NumFlights order
-    dstats = dstats.sort('NumFlights',ascending=False)
-    groupings_order = [x for x in dstats.index]
 
     
-    ### Turn it into a list of dicts, one element per row
-    stats_info = [x[1].to_dict() for x in list(dstats.reset_index().iterrows())]
+    departure_date = datetime.datetime.strptime(request.args['date'], '%Y-%m-%d')
+    departure_date_string = departure_date.strftime('%a, %b %d %Y')
 
-    ### get index (1-based) of "best" grouping (most restrictive with
-    ### more than 100 flights)
-    best_grouping = len(dstats[dstats['NumFlights'] > 100]['NumFlights'])
-    print 'best grouping = %d' % best_grouping
-    
+
+    request_info = {'date':departure_date,
+                    'date_string':departure_date_string}
+
+    ### Looking to buy a flight
+    if 'origin' in request.args.keys():
+        request_info['mode'] = 0
+        request_info['origin'] = request.args['origin']
+        request_info['destination'] = request.args['destination']
+
+    ### Already have a flight
+    if 'carrier' in request.args.keys():
+        request_info['mode'] = 1
+        request_info['carrier'] = request.args['carrier']
+        request_info['flightnumber'] = int(request.args['flightnumber'])
+
+    fs_json = gfs.get_flightstats_json(request_info)
+        
+    flightstats = gfs.parse_flightstats_json(fs_json)
+    flights = DataFrame( gfs.flatten_flightstats(flightstats) )
+
+    Pdelay_dict = am.apply_RF_model(flights)
+
+    for fs in flightstats:
+        ## Pdelay = [ Pdelay_dict[x] for x in fs['FlightID'] ]
+        Pdelay = np.random.uniform(size=len(fs['FlightID']))
+        
+        fs['IconColor'] = [rgb2hex( cmap(x) ) for x in Pdelay]
+        fs['DelayProbability'] = ['%.1f%%' % (100.0*x) for x in Pdelay]
+
+            
+    ### Render the page
     return render_template('results.html',
-                           flight_info=flight_info,
-                           stats_info=stats_info,
-                           groupings_order=groupings_order,
-                           best_grouping=best_grouping)
+                           request_info=request_info,
+                           flightstats=flightstats)
+    
 
 
 @app.route('/test')

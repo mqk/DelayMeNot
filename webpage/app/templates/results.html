@@ -2,64 +2,60 @@
 
 {% extends "base.html" %}
 {% block content %}
-
-
-    <div class="page-header">
-      <h1>Results</h1>
-      <p class="lead">Delay information for a {{ flight_info.carrier }} flight from {{ flight_info.origin }} to {{ flight_info.destination }} departing at {{ flight_info.departure_time }} on {{ flight_info.departure_date }}.</p>
-    </div>
-
-    <form class="form-inline" action="">
-      <div class="row">	    
-	<div class="col-md-7">
-	  
-	  <select class="form-control" name="groupings" onchange="show_grouping(this.selectedIndex);">
-	    <option value="-1">All groupings</option>
-	    {% for group in groupings_order %}
-	    <option value="{{ loop.index }}">{{ group }}</option>
-	    {% endfor %}
-	  </select>
-
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+	<h1>Delay Probabilities</h1>
+	
+	<div style="text-align:right; margin-top:-30px;">
+	  <a href="#" id="model_info" class="btn btn-sm btn-info"
+	     data-toggle="popover" title="Model Details" data-html="true"
+	     data-placement="bottom"
+	     data-content="<div style='font-size:75%;'>Number of flights in training data set = 120000 <br> Time to train = 6100 sec <br> Number of flights in test data set = 60000</div>">
+	  View model details</a>
 	</div>
-      </div>
-    </form>
+	<script> $('#model_info').popover() </script>
 
-    <table class="table table-hover table-condensed">
+      </div>
+      <div class="panel-body">
+	{% if request_info.mode == 0 %}
+	<p class="lead">Flights from {{ request_info.origin }} to {{ request_info.destination }} departing on {{ request_info.date_string }}.</p>
+	{% elif request_info.mode == 1 %}
+	<p class="lead">Flight {{request_info.carrier}}{{request_info.flightnumber}} departing on {{ request_info.date_string }}.</p>
+	{% endif %}
+      </div>
+     
+
+    <table class="table table-hover table-condensed tablesorter" id="results_table">
       <thead>
 	<tr>
-	  <th>Grouping</th>
-	  <th>Nflights</th>
-	  <th> <div rel="tooltip" data-toggle="tooltip" data-placement="top" title="delay < &ndash;15 min" data-delay=0> P(early) </div></th>
-	  <th> <div rel="tooltip" data-toggle="tooltip" data-placement="top" title="&ndash;15 min < delay &le; 30 min"> P(on time) </div></th>
-	  <th> <div rel="tooltip" data-toggle="tooltip" data-placement="top" title="delay > 30 min"> P(late) </div></th>
-	  <th> <div rel="tooltip" data-toggle="tooltip" data-placement="top" title="delay > 60 min"> P(very late) </div></th>
+	  <th>Carrier &nbsp;</th>
+	  <th>Flight Number(s)</th>
+	  <th>Departure Time</th>
+	  <th>Arrival Time</th>
+	  <th>Connections</th>
+	  <th>Layover</th>
+	  <th>Delay Probability</th>
 	</tr>
       </thead>
 
       <tbody class="text-center" id="results_table">
 
-	{% for row in stats_info %}
+	{% for row in flightstats %}
         <tr id="row{{ loop.index0 }}">
-	  <td class="text-left"> {{ row.Grouping }} </td>
-	  <td> {{ row.NumFlights }} </td>
-	  <td> {{ row.early[1] }} </td>
-	  <td> {{ row.ontime[1] }} </td>
-	  <td> {{ row.late[1] }} </td>
-	  <td> {{ row.verylate[1] }} </td>
+	  <td> {{ row.Carrier[0] }} {% if row.Nlegs > 1 %}<br>{{ row.Carrier[1] }}{% endif %}</td>
+	  <td> {{ row.FlightNumber[0] }} {% if row.Nlegs > 1 %}<br>{{ row.FlightNumber[1] }}{% endif %}</td>
+	  <td> {{ row.DepartureTime[0] }} {% if row.Nlegs > 1 %}<br>{{ row.DepartureTime[1] }}{% endif %}</td>
+	  <td> {{ row.ArrivalTime[0] }} {% if row.Nlegs > 1 %}<br>{{ row.ArrivalTime[1] }}{% endif %}</td>
+	  <td> {% if row.ConnectionAirport == '-' %} &mdash; {% else %} {{row.ConnectionAirport}} {% endif %} </td>
+	  <td> {% if row.LayoverMinutes == '-' %} &mdash; {% else %} {{row.LayoverMinutes}} min. {% endif %} </td>
+	  <td class="delay_probability"> {{row.DelayProbability[0]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[0]}};"></i> {% if row.Nlegs > 1 %}<br>{{row.DelayProbability[1]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[1]}};">{% endif %} </td>
 	</tr>
         {% endfor %}
       </tbody>
 
     </table>
-
-<script type="text/javascript">
-window.onload = function(){
-    var e=document.getElementsByName('groupings')[0];
-    e.selectedIndex = {{ best_grouping }};
-    show_grouping({{ best_grouping }});
-}
-</script>
-
+    </div>
 
 {% endblock %}
 
