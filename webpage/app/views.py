@@ -3,8 +3,9 @@ from app import app
 from forms import LookingForFlightForm, AlreadyHaveAFlightForm
 import my_utils as mu
 
-@app.route('/', methods = ['GET', 'POST'])
+
 @app.route('/index', methods = ['GET', 'POST'])
+@app.route('/', methods = ['GET', 'POST'])
 def index():    
 
     form1 = LookingForFlightForm()
@@ -42,7 +43,7 @@ def results():
     import numpy as np
     from pandas import DataFrame
     import matplotlib.pyplot as plt
-    from matplotlib.colors import LinearSegmentedColormap,rgb2hex
+    from matplotlib.colors import LinearSegmentedColormap,rgb2hex,Normalize
     import datetime
 
     import get_flightstats as gfs
@@ -83,13 +84,18 @@ def results():
     flightstats = gfs.parse_flightstats_json(fs_json)
     flights = DataFrame( gfs.flatten_flightstats(flightstats) )
 
-    Pdelay_dict = am.apply_RF_model(flights)
+    Pdelay_dict = am.apply_RF_model(flights,request_info['origin'])
 
+    assign_Pdelay = lambda x: Pdelay_dict[x] if x in Pdelay_dict.keys() else -1.0
+
+    color_norm = Normalize(0.0,0.5)
+    
     for fs in flightstats:
         ## Pdelay = [ Pdelay_dict[x] for x in fs['FlightID'] ]
-        Pdelay = np.random.uniform(size=len(fs['FlightID']))
+        Pdelay = [ assign_Pdelay(x) for x in fs['FlightID'] ]
+        ## Pdelay = np.random.uniform(size=len(fs['FlightID']))
         
-        fs['IconColor'] = [rgb2hex( cmap(x) ) for x in Pdelay]
+        fs['IconColor'] = [rgb2hex( cmap(color_norm(x)) ) for x in Pdelay]
         fs['DelayProbability'] = ['%.1f%%' % (100.0*x) for x in Pdelay]
 
             

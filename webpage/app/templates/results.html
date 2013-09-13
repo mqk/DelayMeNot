@@ -49,7 +49,14 @@
 	  <td> {{ row.ArrivalTime[0] }} {% if row.Nlegs > 1 %}<br>{{ row.ArrivalTime[1] }}{% endif %}</td>
 	  <td> {% if row.ConnectionAirport == '-' %} &mdash; {% else %} {{row.ConnectionAirport}} {% endif %} </td>
 	  <td> {% if row.LayoverMinutes == '-' %} &mdash; {% else %} {{row.LayoverMinutes}} min. {% endif %} </td>
-	  <td class="delay_probability"> {{row.DelayProbability[0]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[0]}};"></i> {% if row.Nlegs > 1 %}<br>{{row.DelayProbability[1]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[1]}};">{% endif %} </td>
+	  <td class="delay_probability">
+            {{row.DelayProbability[0]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[0]}};"></i>
+            {% if row.Nlegs > 1 %}
+              <br> 
+              &hellip; &nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-plane" style="color:#D3D3D3;">
+              <!-- {{row.DelayProbability[1]}} &nbsp; &nbsp; <i class="icon-plane" style="color:{{row.IconColor[1]}};"> -->
+            {% endif %}
+          </td>
 	</tr>
         {% endfor %}
       </tbody>

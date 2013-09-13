@@ -18,7 +18,8 @@ $(document).ready(
 		    2: {sorter:'departure_time'},
 		    3: {sorter:'arrival_time'},
 		    5: {sorter:'layover'}
-	    	}
+	    	},
+                sortList: [[2,0]]
 	    }
 	);
     }

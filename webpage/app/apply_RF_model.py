@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from pandas import DataFrame
 
-def apply_RF_model(flights):
+def apply_RF_model(flights, origin):
     """
     flights is a DataFrame.
     """
@@ -15,14 +15,17 @@ def apply_RF_model(flights):
     holiday_dates = hdf.apply(lambda x: datetime.date(x['Year'],x['Month'],x['Day']),axis=1).values
     del hdf
 
-    ## origins = list(np.unique(np.array([x['Origin'] for x in flights])))
-    origins = flights['Origin'].unique()
-    
+    ## origins = flights['Origin'].unique()
     ## for orig in origins:
-    for orig in ['SFO']:
+
+    #### GET RID OF THIS LOOP!
+    
+    ## for orig in ['SFO']:
+    for orig in [origin]:
+
         print 'Unpickling RandomForest model...'
         time0 = time.time()       
-        f = open('RandomForest_models/rfm_%s.pkl' % orig, 'rb')
+        f = open('RandomForest_models/by_origin/rfm_%s.pkl' % orig, 'rb')
         (rfor,model_summary) = cPickle.load(f)
         f.close()
         print '   That took %.1f seconds.' % (time.time() - time0)
