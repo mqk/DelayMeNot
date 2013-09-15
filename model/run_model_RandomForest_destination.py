@@ -97,7 +97,7 @@ def run_model(destination, subsample=None, min_Nflights=None):
     print '   Number of flights in training data set = %d' % len(Y)
     sys.stdout.flush()
     time0 = time.time()
-    rfor = ensemble.RandomForestClassifier(n_estimators=n_estimators,max_features=max_features,n_jobs=4)
+    rfor = ensemble.RandomForestClassifier(n_estimators=n_estimators,max_features=max_features,n_jobs=8)
     rfor = rfor.fit(X, Y)
     rfor.n_jobs = 1
 
