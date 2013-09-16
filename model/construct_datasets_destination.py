@@ -173,9 +173,6 @@ def distance_to_holiday(df):
 
 def batch_by_Destination():
     import cPickle
-    ## f = open('Destination_list.pkl','rb')
-    ## destination_dict = cPickle.load(f)
-    ## f.close()
 
     destinations = []
     destination_dict = {}
@@ -188,9 +185,9 @@ def batch_by_Destination():
     f.close()
     
     for destination in destinations:
-        if destination in ['ATL','ORD','DFW','DEN','LAX']: continue
+        ## if destination in ['ATL','ORD','DFW','DEN','LAX']: continue
 
-        print 'Fetching data for flights destinationating from %s (Nflights=%d)...' % (destination, destination_dict[destination])        
+        print 'Fetching data for flights with destination %s (Nflights=%d)...' % (destination, destination_dict[destination])        
         (data_train, data_test) = construct_datasets(destination)
 
         pickle_filename = '/data/DelayMeNot/data/pickles_by_destination/datasets_%s.pkl' % destination

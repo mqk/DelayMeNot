@@ -1,3 +1,40 @@
+.jumbotron h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size:400%;
+}
+
+.header h3 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+/*
+.marketing {
+    padding-left: 100px;
+}
+*/
+
+/* jumbotron background animation */
+
+.jumbotron {
+    padding-top:10px;
+    padding-bottom:60px;
+
+/*
+    background-image:url('/static/img/running_00.png');
+    background-position: 5% 95%;
+*/
+
+    background-image:url('/static/img/running_00.png'), url('/static/img/airplane_00.png');
+    background-position: 5% 95%, 50% 95%;
+
+    background-repeat: no-repeat, no-repeat;
+    background-size: 2.5%, 30%;
+
+    animation: myanim 5s linear 0s infinite  normal;
+    -webkit-animation: myanim 4s linear 0s infinite  normal;
+
+}
+
 #flightform_go {
     margin-top:19px;
 }
