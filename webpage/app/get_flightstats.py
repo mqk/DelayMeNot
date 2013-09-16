@@ -50,10 +50,17 @@ def get_flightstats_json(request_info):
             print 'Using previously downloaded JSON file %s.' % json_filename
         else:
             print 'Using FlightStats API to get JSON, saving it to %s.' % json_filename
-            curl_command = 'curl -v -o %s -X GET "https://api.flightstats.com/flex/connections/rest/v1/json/connecting/from/%s/to/%s/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d" &> %s.log' % (json_filename,request_info['origin'],request_info['destination'],date_year,date_month,date_day,json_filename)
-            print curl_command
+
+            API_string = 'https://api.flightstats.com/flex/connections/rest/v1/json/connecting/from/%s/to/%s/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d' % (request_info['origin'],request_info['destination'],date_year,date_month,date_day)
+            command_list = ['curl','-v','-o',json_filename,'-X','GET',API_string]
+            
+            ## curl_command = 'curl -v -o %s -X GET "https://api.flightstats.com/flex/connections/rest/v1/json/connecting/from/%s/to/%s/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d" > %s.log 2>&1' % (json_filename,request_info['origin'],request_info['destination'],date_year,date_month,date_day,json_filename)
+            print 'Executing this curl command:\n   ', ' '.join(command_list)
+            
             time0 = time.time()
-            subprocess.call(curl_command, shell=True)
+            logf = open(json_filename+'.log','w')
+            subprocess.call(command_list, stdout=logf, stderr=subprocess.STDOUT)
+            logf.close()
             print '   That took %.1f seconds.' % (time.time() - time0)
             
     elif request_info['mode'] == 1:
@@ -64,10 +71,17 @@ def get_flightstats_json(request_info):
             print 'Using previously downloaded JSON file %s.' % json_filename
         else:
             print 'Using FlightStats API to get JSON, saving it to %s.' % json_filename
-            curl_command = 'curl -v  -o %s -X GET "https://api.flightstats.com/flex/schedules/rest/v1/json/flight/%s/%d/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d" &> %s.log' % (json_filename,request_info['carrier'],request_info['flightnumber'],date_year,date_month,date_day,json_filename)
-            print curl_command
+
+            API_string = 'https://api.flightstats.com/flex/schedules/rest/v1/json/flight/%s/%d/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d' % (request_info['carrier'],request_info['flightnumber'],date_year,date_month,date_day)
+            command_list = ['curl','-v','-o',json_filename,'-X','GET',API_string]
+
+            ## curl_command = 'curl -v  -o %s -X GET "https://api.flightstats.com/flex/schedules/rest/v1/json/flight/%s/%d/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d" &> %s.log' % (json_filename,request_info['carrier'],request_info['flightnumber'],date_year,date_month,date_day,json_filename)
+            print 'Executing this curl command:\n   ', ' '.join(command_list)
+            
             time0 = time.time()
-            ## subprocess.call(curl_command, shell=True)
+            logf = open(json_filename+'.log','w')
+            subprocess.call(command_list, stdout=logf, stderr=subprocess.STDOUT)
+            logf.close()
             print '   That took %.1f seconds.' % (time.time() - time0)
             
     else:

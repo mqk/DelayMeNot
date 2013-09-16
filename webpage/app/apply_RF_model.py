@@ -113,8 +113,13 @@ def fill_dataframe(df, train_cols):
     ### Add zero columns for any missing columns
     for tc in train_cols:
         if tc not in df.columns:
-            df[tc] = np.zeros_like(df['Year'],dtype=float)
+            if not ( tc.startswith('Carrier_') |
+                     tc.startswith('Origin_') |
+                     tc.startswith('Destination_') ):
+                print 'Did not find columns %s, adding zeros.' % tc
 
+            df[tc] = np.zeros_like(df['Year'],dtype=float)
+                
     ### Drop any columns that are not in train_cols
     cols_to_drop = []
     for c in df.columns:
