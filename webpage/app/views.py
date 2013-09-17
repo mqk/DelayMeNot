@@ -76,21 +76,39 @@ def results():
 
     ### Already have a flight
     if 'carrier' in request.args.keys():
+        _, carrier_dict_code = mu.read_carrier_dict()
+
         request_info['mode'] = 1
-        request_info['carrier'] = request.args['carrier']
+        request_info['carrier'] = carrier_dict_code[request.args['carrier']]
         request_info['flightnumber'] = int(request.args['flightnumber'])
 
 
     ### get cached results, if available (return None if not found)
     cached_results = c.get_cached_results(request_info)
 
+    ### temporarily turn off caching
+    ## cached_results = None
+    
     if cached_results is None:
 
         fs_json = gfs.get_flightstats_json(request_info)
-        
-        flightstats = gfs.parse_flightstats_json(fs_json)
-        flights = DataFrame( gfs.flatten_flightstats(flightstats) )
 
+        flightstats = gfs.parse_flightstats_json(fs_json)
+
+        ### If carrier-flightnumber, remove all but the desired flighs
+        ### from flightstats
+        if request_info['mode'] == 1:
+            for fs in flightstats:
+                if ((fs['CarrierCode'][0] == request_info['carrier']) &
+                    (fs['FlightNumber'][0] == request_info['flightnumber'])):
+                    break
+            flightstats = [fs]
+        
+           
+        ### Flatten flightstats into a list of all flights (connecting
+        ### legs are treated as a separate flight)
+        flights = DataFrame( gfs.flatten_flightstats(flightstats) )
+ 
         Pdelay_dict_orig, Pdelay_dict_dest, model_summary_orig, model_summary_dest = am.apply_RF_model(flights,request_info['origin'],request_info['destination'])
 
 

@@ -42,28 +42,10 @@ def get_flightstats_json(request_info):
     date_month = request_info['date'].month
     date_day = request_info['date'].day
 
-    if request_info['mode'] == 0:
-        json_filename = 'JSON/%s_%s_%s.json' % (request_info['origin'],
-                                                request_info['destination'],
-                                                datestr)
-        if os.path.isfile(json_filename):
-            print 'Using previously downloaded JSON file %s.' % json_filename
-        else:
-            print 'Using FlightStats API to get JSON, saving it to %s.' % json_filename
 
-            API_string = 'https://api.flightstats.com/flex/connections/rest/v1/json/connecting/from/%s/to/%s/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d' % (request_info['origin'],request_info['destination'],date_year,date_month,date_day)
-            command_list = ['curl','-v','-o',json_filename,'-X','GET',API_string]
-            
-            ## curl_command = 'curl -v -o %s -X GET "https://api.flightstats.com/flex/connections/rest/v1/json/connecting/from/%s/to/%s/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d" > %s.log 2>&1' % (json_filename,request_info['origin'],request_info['destination'],date_year,date_month,date_day,json_filename)
-            print 'Executing this curl command:\n   ', ' '.join(command_list)
-            
-            time0 = time.time()
-            logf = open(json_filename+'.log','w')
-            subprocess.call(command_list, stdout=logf, stderr=subprocess.STDOUT)
-            logf.close()
-            print '   That took %.1f seconds.' % (time.time() - time0)
-            
-    elif request_info['mode'] == 1:
+    ### If carrier-flightnumber mode, first make an API to get the
+    ### origin and destination
+    if request_info['mode'] == 1:
         json_filename = 'JSON/%s_%s_%s.json' % (request_info['carrier'],
                                                 request_info['flightnumber'],
                                                 datestr)
@@ -83,10 +65,39 @@ def get_flightstats_json(request_info):
             subprocess.call(command_list, stdout=logf, stderr=subprocess.STDOUT)
             logf.close()
             print '   That took %.1f seconds.' % (time.time() - time0)
-            
-    else:
-        raise RuntimeError('Unknown request mode (%d)!' % request_info['mode'])
 
+        f = open(json_filename,'r')
+        flightschedule_json = json.load(f)
+        f.close()
+
+        request_info['origin'] = flightschedule_json['scheduledFlights'][0]['departureAirportFsCode']
+        request_info['destination'] = flightschedule_json['scheduledFlights'][0]['arrivalAirportFsCode']
+            
+    ### end of 'if request_info['mode'] == 1:'
+
+
+    ### Get the flightstats for destination-origin
+    
+    json_filename = 'JSON/%s_%s_%s.json' % (request_info['origin'],
+                                            request_info['destination'],
+                                            datestr)
+    if os.path.isfile(json_filename):
+        print 'Using previously downloaded JSON file %s.' % json_filename
+    else:
+        print 'Using FlightStats API to get JSON, saving it to %s.' % json_filename
+
+        API_string = 'https://api.flightstats.com/flex/connections/rest/v1/json/connecting/from/%s/to/%s/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d' % (request_info['origin'],request_info['destination'],date_year,date_month,date_day)
+        command_list = ['curl','-v','-o',json_filename,'-X','GET',API_string]
+            
+        ## curl_command = 'curl -v -o %s -X GET "https://api.flightstats.com/flex/connections/rest/v1/json/connecting/from/%s/to/%s/departing/%d/%d/%d?appId=06c64b04&appKey=eb5577593bd351d764478d64d535258d" > %s.log 2>&1' % (json_filename,request_info['origin'],request_info['destination'],date_year,date_month,date_day,json_filename)
+        print 'Executing this curl command:\n   ', ' '.join(command_list)
+            
+        time0 = time.time()
+        logf = open(json_filename+'.log','w')
+        subprocess.call(command_list, stdout=logf, stderr=subprocess.STDOUT)
+        logf.close()
+        print '   That took %.1f seconds.' % (time.time() - time0)
+            
     f = open(json_filename,'r')
     flightstats_json = json.load(f)
     f.close()
@@ -141,7 +152,7 @@ def parse_flightstats_json(flightstats_json):
             this_flight['Destination'].append(leg['arrivalAirportFsCode'] )
             this_flight['Carrier'].append( carrier_dict[leg['carrierFsCode']] )
             this_flight['CarrierCode'].append( leg['carrierFsCode'] )
-            this_flight['FlightNumber'].append( leg['flightNumber'] )
+            this_flight['FlightNumber'].append( int(leg['flightNumber']) )
             this_flight['FlightID'].append( leg['carrierFsCode']+'-'+leg['flightNumber'] )
             this_flight['FlightDuration'].append( leg['flightDurationMinutes'] )
             this_flight['Distance'].append( leg['distanceMiles'] )

@@ -39,6 +39,9 @@ def apply_RF_model(flights, origin, destination):
         ### Create Origin flights DataFrame        
         df = flights[ flights['Origin'] == origin ]
         df, FlightID = fill_dataframe(df,train_cols)
+
+        print df.to_string()
+        print FlightID
         
         ### at last, apply the model
         Pdelay_orig = dict( zip(FlightID, rfor.predict_proba(df.values)[:,1]) )
@@ -72,7 +75,7 @@ def apply_RF_model(flights, origin, destination):
         ### Create Destination flights DataFrame        
         df = flights[ flights['Destination'] == destination ]
         df, FlightID = fill_dataframe(df,train_cols)
-    
+            
         ### at last, apply the model
         Pdelay_dest = dict( zip(FlightID, rfor.predict_proba(df.values)[:,1]) )
 
@@ -102,29 +105,41 @@ def fill_dataframe(df, train_cols):
     df.rename(columns={'FlightDuration':'ScheduledElapsedTime',
                        'CarrierCode':'Carrier'}, inplace=True)
 
+
+    ### Now set the Carrier and Origin/Destination dummies
+    ###
+    ### Note: Unlike in the training we actually add the first column
+    ### as well. This is because for the carrier-flightnumber case
+    ### there is only one Carrier and one Origin/Destination, and it
+    ### would get nixed otherwise.
+    
     dummies = pd.get_dummies(df['Carrier'],prefix='Carrier')
-    df = df.join(dummies.ix[:,1:])
+    df = df.join(dummies)
 
     dummies = pd.get_dummies(df['Destination'],prefix='Destination')
-    df = df.join(dummies.ix[:,1:])
-
+    df = df.join(dummies)
 
     
-    ### Add zero columns for any missing columns
+    ### Add zero columns for any Carrier and Origin/Destination
+    ### columns that are not yet in the dataframe
     for tc in train_cols:
         if tc not in df.columns:
+
+            ## Warn if a non-{Carrier,Origin,Destination} field is missing
             if not ( tc.startswith('Carrier_') |
                      tc.startswith('Origin_') |
                      tc.startswith('Destination_') ):
                 print 'Did not find columns %s, adding zeros.' % tc
 
             df[tc] = np.zeros_like(df['Year'],dtype=float)
-                
+
     ### Drop any columns that are not in train_cols
     cols_to_drop = []
     for c in df.columns:
         if c not in train_cols:
             cols_to_drop.append(c)
+    if len(cols_to_drop) > 0:
+        print 'Dropping these unused columns: ',cols_to_drop
     df = df.drop(cols_to_drop,axis=1)
 
     ### re-order the columns
