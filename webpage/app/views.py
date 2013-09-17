@@ -166,6 +166,6 @@ def results():
     
 
 
-@app.route('/test')
-def test():
-    return render_template('test.html')
+@app.route('/slides')
+def slides():
+    return render_template('slides.html')
