@@ -155,13 +155,16 @@ def results():
         (flightstats, model_summaries) = cached_results
 
     ## end of 'if not cached_results:'
-
+    carriers = [x['Carrier'] for x in flightstats]
+    unique_carriers = list(np.unique(np.array([item for sublist in carriers for item in sublist])))
+    print unique_carriers
     
     ### Render the page
     return render_template('results.html',
                            title='Results',
                            request_info=request_info,
                            flightstats=flightstats,
+                           unique_carriers=unique_carriers,
                            model_summaries=model_summaries)
     
 

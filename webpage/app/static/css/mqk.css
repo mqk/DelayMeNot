@@ -35,6 +35,10 @@
 
 }
 
+#results_table_body {
+    text-align:left;
+}
+
 #flightform_go {
     margin-top:19px;
 }
