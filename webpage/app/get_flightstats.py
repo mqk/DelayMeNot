@@ -116,9 +116,12 @@ def parse_flightstats_json(flightstats_json):
 
     for i,f in enumerate(flights):
 
-        ## not sure if this is necessary, are more than 2 legs ever returned?
+        ### not sure if this is necessary, are more than 2 legs ever returned?
         if len(f['flightLegs']) > 2: continue
 
+        ### TEMPORARY: filter out non-online flights
+        if not f['online']: continue
+        
         Nlegs = len(f['flightLegs'])
         
         this_flight = {}
