@@ -37,13 +37,48 @@ $(document).ready(
         });
 
         $('#connections_direct').click(function() {
+            /*
+              if not toggled-on:
+                  remove .visible from all tr.withstop
+                  remove .toggled-on from #connections_withstop
+                  add .visible to all tr.direct
+
+                  show all tr.visible
+              else
+                  show all tr
+
+              toggle .toggled-on for $(this)
+            */
+            $(this).toggleClass("toggled-on");
+
+            if ($(this).hasClass("toggled-on")) {
+                $('#connections_withstop').removeClass("toggled-on");
+
+                $('#results_table_body tr.withstop').removeClass("visible");
+                $('#results_table_body tr.direct').addClass("visible");
+            }
+            else {
+                $('#results_table_body tr').show();
+            }
+            
+            $('#results_table_body tr').hide();
+            $('#results_table_body tr.visible').show();
+
+
+            /*
             $('#results_table_body tr').hide();
             $('#results_table_body tr.direct').show();
+            */
         });
 
         $('#connections_withstop').click(function() {
+            $('#connections_direct').removeClass("toggled-on");
+            $(this).toggleClass("toggled-on");
+            
+            /*
             $('#results_table_body tr').hide();
             $('#results_table_body tr.withstop').show();
+            */
         });
 
     }
