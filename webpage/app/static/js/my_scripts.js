@@ -33,10 +33,13 @@ $(document).ready(
         });
 
         $('#connections_all').click(function() {
+            $('#connections_nonstop').removeClass("toggled-on");
+            $('#connections_withstop').removeClass("toggled-on");
+
             $('#results_table_body tr').show();
         });
 
-        $('#connections_direct').click(function() {
+        $('#connections_nonstop').click(function() {
             /*
               if not toggled-on:
                   remove .visible from all tr.withstop
@@ -72,7 +75,7 @@ $(document).ready(
         });
 
         $('#connections_withstop').click(function() {
-            $('#connections_direct').removeClass("toggled-on");
+            $('#connections_nonstop').removeClass("toggled-on");
             $(this).toggleClass("toggled-on");
             
             /*
