@@ -35,6 +35,7 @@
 
 }
 
+/*
 #results_table a.toggled-off {
     color: #333333;
     background-color: #ffffff;
@@ -48,6 +49,17 @@
 #results_table a.toggled-on {
     color:#333333;
     background-color:#ebebeb;
+}
+*/
+
+#results_table a.toggled-on {
+    color: #ffffff;
+    background-color: #3276b1;
+}
+
+#results_table a.toggled-on:hover {
+    color: #ffffff;
+    background-color: #428bca;
 }
 
 #results_table_body {
