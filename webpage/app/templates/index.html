@@ -11,55 +11,103 @@
 
     <div class="row marketing">
 
-      <div class="col-lg-12" id="my_forms">
+      <h4>Looking for a flight?</h4>
 
-	<h4>Looking for a flight?</h4>
+      <form action="" method="post" name="lookingforflight_form">
+	{{form1.hidden_tag()}}
 
-	<form class="form-inline" action="" method="post" name="lookingforflight_form">
-	  {{form1.hidden_tag()}}
-
-	  <div class="row">	    
-	    <div class="col-md-3">
-		{{form1.date(size=10, class_="form-control", placeholder="Date", id="dp1")}}
-	    </div>
-	    <div class="col-md-3">
-		{{form1.origin(size=20, class_="form-control", placeholder="From")}}
-	    </div>
-	    <div class="col-md-3">
-		{{form1.destination(size=20, class_="form-control", placeholder="To")}}
-	    </div>
-	    <div class="col-md-2">
-	      <input type="submit" value="Go!", class="btn btn-primary">
-	    </div>
-
+	<div class="row">
+	  <div class="col-lg-2">
+	    {{form1.date(size="100%", class_="form-control", placeholder="Date", id="dp1")}}
 	  </div>
-	</form>
-
-
-	<h4>Already have a flight?</h4>
-
-	<form class="form-inline" action="" method="post" name="alreadyhaveflight_form">
-	  {{form2.hidden_tag()}}
-
-	  <div class="row">	    
-	    <div class="col-md-3">
-		{{form2.date(size=10, class_="form-control", placeholder="Date", id="dp2")}}
-	    </div>
-	    <div class="col-md-3">
-		{{form2.carrier(size=20, class_="form-control", placeholder="Carrier", id="carrier_field")}}
-	    </div>
-	    <div class="col-md-3">
-		{{form2.flightnumber(size=20, class_="form-control", placeholder="Flight Number")}}
-	    </div>
-	    <div class="col-md-2">
-	      <input type="submit" value="Go!", class="btn btn-primary">
-	    </div>
-
+	  <div class="col-lg-4">
+	    {{form1.origin(size="100%", class_="form-control airport_form", placeholder="From")}}
 	  </div>
-	</form>
-	  
-      </div> <!-- col-lg-12 -->
+	  <div class="col-lg-4">
+	    {{form1.destination(size="100%", class_="form-control airport_form", placeholder="To")}}
+	  </div>
+	  <div class="col-lg-2">
+	    <input type="submit" value="Go!" name="form1_submit" class="btn btn-primary">
+	  </div>
+          
+	</div>
+
+        {% if (form1.submitted) and (form1.errors) %}
+
+        <div class="modal fade" id="form1_errors">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header alert alert-danger">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Error!</h4>
+              </div>
+              <div class="modal-body">
+                {% for key, value in form1.errors.iteritems() %}
+                  {% for err in value %}
+                  <p>{{key|capitalize()}}: {{err}}</p>
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        <script>
+          $('#form1_errors').modal()
+        </script>
+
+        {% endif %}
+
+      </form>
+
+      <h4>Already have a flight?</h4>
+
+      <form action="" method="post" name="alreadyhaveflight_form">
+	{{form2.hidden_tag()}}
+
+	<div class="row">	    
+	  <div class="col-lg-2">
+	    {{form2.date(size="100%", class_="form-control", placeholder="Date", id="dp2")}}
+	  </div>
+	  <div class="col-lg-4">
+	    {{form2.carrier(size="100%", class_="form-control carrier_form", placeholder="Carrier")}}
+	  </div>
+	  <div class="col-lg-4">
+	    {{form2.flightnumber(size="100%", class_="form-control", placeholder="Flight Number")}}
+	  </div>
+	  <div class="col-lg-2">
+	    <input type="submit" value="Go!" name="form2_submit" class="btn btn-primary">
+	  </div>
+	</div>
       
+        {% if (form2.submitted) and (form2.errors) %}
+
+        <div class="modal fade" id="form2_errors">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header alert alert-danger">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Error!</h4>
+              </div>
+              <div class="modal-body">
+                {% for key, value in form2.errors.iteritems() %}
+                  {% for err in value %}
+                  <p>{{key|capitalize()}}: {{err}}</p>
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        <script>
+          $('#form2_errors').modal()
+        </script>
+
+        {% endif %}
+
+      </form>
+
     </div> <!-- row marketing -->
 
     <script>
@@ -71,10 +119,14 @@
         format: 'mm/dd/yyyy'
       });
 
+      $('input.airport_form').typeahead({
+          name: 'airport',
+	  local: {{ airports | safe }}
+      });
 
-      $('#carrier_field').typeahead({
-        name: 'carrier',
-	local: {{ carriers | safe }}
+      $('input.carrier_form').typeahead({
+          name: 'carrier',
+	  local: {{ carriers | safe }}
       });
     </script>
 

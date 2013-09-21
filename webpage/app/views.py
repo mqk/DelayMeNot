@@ -8,34 +8,78 @@ import my_utils as mu
 @app.route('/', methods = ['GET', 'POST'])
 def index():    
 
+    ### create a list airport and carrier names
+    airport_dict_name, _ = mu.read_airport_dict()
+    airports = ['%s - %s' % (v,k) for k,v in airport_dict_name.iteritems()]
+    carrier_dict_name, _ = mu.read_carrier_dict()
+    carriers = ['%s - %s' % (v,k) for k,v in carrier_dict_name.iteritems()]
+
+    
     form1 = LookingForFlightForm()
     form2 = AlreadyHaveAFlightForm()
 
+
+    ## hackish way to keep the two forms separated...
+    form1.submitted = False
+    form2.submitted = False
+    request_form_keys = request.form.keys()
+    if 'form1_submit' in request_form_keys:
+        form1.submitted = True
+    if 'form2_submit' in request_form_keys:
+        form2.submitted = True
+                
     if form1.validate_on_submit():
         print ('       Date = "%s"' % form1.date.data)
         print ('     Origin = "%s"' % form1.origin.data)
         print ('Destination = "%s"' % form1.destination.data)
-
         
+        if form1.origin.data in airport_dict_name.keys():
+            origin = form1.origin.data
+        elif form1.origin.data in airport_dict_name.values():
+            origin = airport_dict_name[form1.origin.data]
+        elif form1.origin.data in airports:
+            origin = form1.origin.data[-3:]
+        else:
+            ## should never get here, since the form was validated...
+            raise RuntimeError("Problems with Origin...")
+
+        if form1.destination.data in airport_dict_name.keys():
+            destination = form1.destination.data
+        elif form1.destination.data in airport_dict_name.values():
+            destination = airport_dict_name[form1.destination.data]
+        elif form1.destination.data in airports:
+            destination = form1.destination.data[-3:]
+        else:
+            ## should never get here, since the form was validated...
+            raise RuntimeError("Problems with Destination...")
+
         return redirect(url_for('.results',
-                                date=form1.date.data,
-                                origin=form1.origin.data,
-                                destination=form1.destination.data))
+                        date=form1.date.data,
+                        origin=origin,
+                        destination=destination))
 
     if form2.validate_on_submit():
         print ('        Date = "%s"' % form2.date.data)
         print ('     Carrier = "%s"' % form2.carrier.data)
         print ('FlightNumber = "%s"' % form2.flightnumber.data)
 
-        
+        if form2.carrier.data in carrier_dict_name.keys():
+            carrier = form2.carrier.data
+        elif form2.carrier.data in carrier_dict_name.values():
+            carrier = carrier_dict_name[form2.carrier.data]
+        elif form2.carrier.data in carriers:
+            carrier = form2.carrier.data[-3:]
+        else:
+            ## should never get here, since the form was validated...
+            raise RuntimeError("Problems...")
+
         return redirect(url_for('.results',
                                 date=form2.date.data,
-                                carrier=form2.carrier.data,
+                                carrier=carrier,
                                 flightnumber=form2.flightnumber.data))
     
-    carrier_dict_name, _ = mu.read_carrier_dict()
-    carriers = carrier_dict_name.values()
-    return render_template('index.html', form1=form1, form2=form2, carriers=carriers)
+
+    return render_template('index.html', form1=form1, form2=form2, airports=airports, carriers=carriers)
 
 
 @app.route('/results')

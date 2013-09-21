@@ -1,0 +1,2589 @@
+A04	Centre Municipal
+A14	Portage Creek
+A29	Sitka SPB
+A30	Scott Valley
+A32	Butte Valley
+A61	Tuntutuliak
+A63	Twin Hills
+A79	Chignik Lake
+A85	Kwigillingok
+AAF	Apalachicola Municipal
+AAO	Colonel James Jabara
+AAS	Taylor County
+AAT	Alturas Municipal
+ABE	Lehigh Valley International
+ABI	Abilene Regional
+ABO	Antonio (Nery) Juarbe Pol
+ABQ	Albuquerque International
+ABR	Aberdeen Regional
+ABY	Southwest Georgia Regional
+ACB	Antrim County
+ACJ	Souther
+ACK	Nantucket Memorial
+ACQ	Waseca Municipal
+ACT	Waco Regional
+ACV	Arcata
+ACY	Atlantic City International
+ACZ	Henderson
+ADC	Wadena Municipal
+ADG	Lenawee County
+ADH	Ada Municipal
+ADK	Adak
+ADM	Ardmore Municipal
+ADQ	Kodiak
+ADS	Addison
+ADT	Atwood-Rawlins County City-County
+ADU	Audubon Municipal
+AEG	Double Eagle II
+AEL	Albert Lea Municipal
+AEX	Alexandria International
+AFE	Kake
+AFJ	Washington County
+AFK	Nebraska City Municipal
+AFM	Ambler
+AFN	Jaffrey Municipal Silver Ranch
+AFO	Afton Municipal
+AFW	Fort Worth Alliance
+AGC	Allegheny Cty
+AGN	Angoon SPB
+AGO	Magnolia Municipal
+AGS	Bush
+AGZ	Wagner Municipal
+AHH	Amery Municipal
+AHN	Athens Municipal
+AHP	Port Alexander SPB
+AHQ	Wahoo Municipal
+AIA	Alliance Municipal
+AID	Anderson Municipal
+AIG	Langlade County
+AIK	Aiken Municipal
+AIO	Atlantic Municipal
+AIT	Aitkin Municipal
+AIV	George Downer
+AIY	Atlantic City Municipal
+AIZ	Lee C Fine Memorial
+AJC	Chignik (Anchorage Bay)
+AJG	Mt Carmel Municipal
+AJO	Corona Municipal
+AJR	Habersham County
+AK5	Perryville
+AKA	Atka
+AKH	Gastonia Municipal
+AKI	Akiak
+AKK	Akhiok
+AKN	King Salmon
+AKO	Akron-Washington Co
+AKP	Anaktuvuk Pass
+AKR	Akron Fulton Intl.
+AKW	Klawock
+ALB	Albany Cty
+ALI	Alice International
+ALM	Alamogordo-White Sands Regional
+ALN	St. Louis Regional
+ALO	Waterloo Municipal
+ALS	San Luis Valley Regional/Bergman
+ALW	Walla Walla Regional
+ALX	Thomas C Russell
+AMA	Amarillo International
+AMG	Bacon County
+AMN	Gratiot Community
+AMT	Alexander Salamon
+AMW	Ames Municipal
+ANB	Anniston Metropolitan
+ANC	Ted Stevens Anchorage International
+AND	Anderson County
+ANE	Anoka County
+ANI	Aniak
+ANQ	Steuben County-Tri State
+ANV	Anvik
+ANW	Ainsworth Municipal
+ANY	Anthony Municipal
+AOC	Arco-Butte County
+AOH	Allen County
+AOO	Altoona-Blair Cty
+APA	Centennial
+APC	Napa County
+APF	Naples Municipal
+APN	Alpena County Regional
+APT	Marion County-Brown
+APV	Apple Valley
+AQC	Klawock SPB
+AQH	Kwinhagak
+AQT	Nuiqsut
+AQW	Harriman And West
+AQY	Girdwood
+ARA	Acadiana Regional
+ARB	Ann Arbor Municipal
+ARC	Arctic Village
+ARG	Walnut Ridge Regional
+ARR	Aurora Municipal
+ART	Watertown Intl
+ARV	Lakeland
+ASD	Slidell
+ASE	Aspen-Pitkin Co/Sardy
+ASG	Springdale Municipal
+ASH	Boire
+ASJ	Tri-County
+ASL	Marshall - Harrison County
+ASN	Talladega Municipal
+AST	Astoria Regional
+ASW	Warsaw Municipal
+ASX	John F Kennedy Memorial
+ATA	Hall-Miller Municipal
+ATK	Atqasuk
+ATL	William B Hartsfield-Atlanta Intl
+ATS	Artesia Municipal
+ATW	Outagamie County Regional
+ATY	Watertown Municipal
+AUG	Augusta State
+AUH	Aurora Municipal
+AUK	Alakanuk
+AUM	Austin Municipal
+AUN	Auburn Municipal
+AUO	Auburn-Opelik
+AUS	Austin-Bergstrom International
+AUW	Wausau Municipal
+AVC	Mecklenburg-Brunswick Regional
+AVK	Alva Regional
+AVL	Asheville Regional
+AVO	Avon Park Municipal
+AVP	Wilkes-Barre/Scranton Intl
+AVQ	Marana Northwest Regional
+AVX	Catalina
+AWG	Washington Municipal
+AWI	Wainwright
+AWM	West Memphis Municipal
+AWO	Arlington Municipal
+AXA	Algona Municipal
+AXN	Chandler
+AXS	Altus Municipal
+AXV	Neil Armstrong
+AXX	Angel Fire
+AYS	Waycross-Ware County
+AZC	Colorado City Municipal
+AZE	Hazelhurst
+AZO	Kalamazoo County
+B01	Granville
+B08	Silver Springs
+B16	Whitford
+B19	Biddeford Municipal
+B21	Sugarloaf Regional
+BAF	Barnes Municipal
+BAK	Columbus Municipal
+BAM	Battle Mountain
+BAX	Huron County Memorial
+BAZ	New Braunfels Municipal
+BBB	Benson Municipal
+BBD	Curtis
+BBP	Marlboro County
+BBW	Broken Bow Municipal
+BCB	Virginia Tech
+BCE	Bryce Canyon
+BCK	Black River Falls Area
+BCT	Boca Raton
+BCV	Birchwood
+BDE	Baudette International
+BDG	Blanding Muni
+BDL	Bradley International
+BDQ	Morrilton Municipal
+BDR	Igor I Sikorsky Memorial
+BDX	Broadus
+BED	Laurence G Hanscom
+BEH	Southwest Michigan Regional
+BET	Bethel
+BFD	Bradford Reg
+BFF	Scotts Bluff County
+BFI	Boeing Field/King County Intl
+BFK	Buffalo Municipal
+BFL	Meadows
+BFM	Mobile Downtown
+BFR	Virgil I Grissom Municipal
+BFW	Silver Bay Municipal
+BGD	Hutchinson County
+BGE	Decatur County Industrial Airpark
+BGF	Winchester Municipal
+BGM	Binghamton Regional
+BGQ	Big Lake Strip Nr 2
+BGR	Bangor International
+BHB	Hancock Co-Bar Harbor
+BHC	Baxley Municipal
+BHK	Baker Muni
+BHM	Birmingham International
+BID	Block Island State
+BIE	Beatrice Municipal
+BIG	Allen AAF
+BIH	Bishop
+BIL	Billings Logan Intl
+BIS	Bismarck Municipal
+BIV	Tulip City
+BJC	Jeffco
+BJI	Bemidji-Beltrami County
+BJJ	Wayne County
+BKD	Breckenridge Stephens County
+BKE	Baker City Municipal
+BKL	Burke Lakefront
+BKV	Hernando County
+BKW	Raleigh Cty Memorial
+BKX	Brookings Municipal
+BLF	Mercer Cty
+BLH	Blythe
+BLI	Bellingham Intl
+BLM	Allaire Arpt
+BLV	Scott AFB/MidAmerica
+BMC	Brigham City
+BMG	Monroe County
+BMI	Central Illinois Regional
+BML	Berlin Municipal
+BMQ	Burnet Muni-Kate Craddock
+BMT	Beaumont Municipal
+BNA	Nashville International
+BNF	Baranof Warm Springs SPB
+BNG	Banning Municipal
+BNL	Barnwell County
+BNO	Burns Muni
+BNW	Boone Municipal
+BOI	Boise Air Terminal
+BOK	Brookings
+BOS	Gen Edw L Logan Intl
+BOW	Bartow Municipal
+BPI	Big Piney-Marbleton
+BPK	Baxter County Regional
+BPT	Southeast Texas Regional
+BQK	Glynco Jetport
+BQN	Rafael Hernandez
+BRD	Brainerd-Crow Wing County Regional
+BRL	Burlington Municipal
+BRO	Brownsville/S.Padre Island International
+BRW	Wiley Post Will Rogers Memorial
+BRY	Samuels
+BST	Belfast Municipal
+BTI	Barter Island
+BTL	W K Kellogg Regional
+BTM	Bert Mooney
+BTN	Britton Municipal
+BTP	Butler Cty
+BTR	Baton Rouge Metropolitan, Ryan
+BTT	Bettles
+BTV	Burlington International
+BTY	Beatty
+BUB	Cram
+BUF	Buffalo Niagara Intl
+BUM	Butler Memorial
+BUR	Burbank-Glendale-Pasadena
+BUY	Burlington Municipal
+BVI	Beaver County
+BVK	Buckland
+BVN	Albion Municipal
+BVO	Bartlesville Municipal
+BVS	Skagit Regional/Bay View
+BVX	Batesville Regional
+BVY	Beverly Municipal
+BWC	Brawley Municipal
+BWD	Brownwood Municipal
+BWG	Bowling Green-Warren County
+BWI	Baltimore-Washington International
+BWP	Harry Stern
+BXA	George R Carr Memorial
+BXG	Burke County
+BXK	Buckeye Municipal
+BYA	Boundary
+BYG	Johnson County
+BYI	Burley Municipal
+BZN	Gallatin
+C00	Mercer County
+C05	Chenega Bay
+C09	Morris Municipal
+C15	Pekin Municipal
+C17	Marion
+C18	Frankfort
+C25	Waverly Municipal
+C29	Morey
+C34	Gibson City Municipal
+C35	Reedsburg Municipal
+C47	Portage Municipal
+C52	Burlington Municipal
+C56	Sanger
+C62	Kendallville Municipal
+C65	Plymouth Municipal
+C66	Monmouth Municipal
+C71	Crosby Municipal
+C73	Dixon Muni-Charles R Walgreen
+C75	Marshall County
+C77	Poplar Grove
+C80	New Coalinga Municipal
+C81	Campbell
+C83	Byron
+C91	Dowagiac Municipal
+CAD	Wexford County
+CAE	Columbia Metropolitan
+CAG	Craig-Moffat
+CAK	Akron-Canton Regional
+CAO	Clayton Municipal Airpark
+CAR	Caribou Municipal
+CAV	Clarion Municipal
+CBE	Cumberland Regional
+CBF	Council Bluffs Municipal
+CBG	Cambridge Municipal
+CBK	Shaltz
+CCB	Cable
+CCO	Newnan-Coweta County
+CCR	Buchanan
+CCY	Charles City Municipal
+CDB	Cold Bay
+CDC	Cedar City Muni
+CDH	Harrell
+CDI	Cambridge Municipal
+CDK	George T Lewis
+CDN	Woodward
+CDR	Chadron Municipal
+CDV	Merle K (Mudhole) Smith
+CDW	Essex Cty Arpt
+CEC	Jack McNamara
+CEF	Westover AFB
+CEK	Crete Municipal
+CEM	Central
+CEU	Oconee County Regional
+CEV	Mettel
+CEW	Bob Sikes
+CEY	Kyle-Oakley
+CEZ	Cortez Muni
+CFD	Coulter
+CFJ	Crawfordsville Municipal
+CFK	Chefornak
+CFT	Greenlee County
+CFV	Coffeyville Municipal
+CGA	Craig SPB
+CGC	Crystal River
+CGE	Cambridge-Dorchester
+CGF	Cuyahoga County
+CGI	Cape Girardeau Municipal
+CGS	College Park
+CGX	Chicago Meigs
+CGZ	Casa Grande Municipal
+CHA	Lovell
+CHD	Chandler Municipal
+CHK	Chickasha Municipal
+CHO	Charlottesville-Albermarle
+CHP	Circle Hot Springs
+CHS	Charleston AFB/International
+CHT	Chillicothe Municipal
+CHU	Houston County
+CIC	Chico Municipal
+CID	Eastern Iowa
+CII	Choteau
+CIK	Chalkyitsik
+CIN	Arthur N Neu
+CIR	Cairo
+CIU	Chippewa County International
+CJR	Culpeper Regional
+CJX	Crooked Creek
+CKB	Benedum
+CKC	Grand Marais/Cook County
+CKF	Crisp County - Cordele
+CKI	Williamsburg County
+CKM	Fletcher
+CKN	Crookston Muni Kirkwood
+CKP	Cherokee Municipal
+CKU	Cordova Muni
+CKV	Outlaw
+CKX	Chicken
+CLD	MC Clellan-Palomar Airport
+CLE	Cleveland-Hopkins Intl
+CLI	Clintonville Municipal
+CLK	Clinton Municipal
+CLL	Easterwood
+CLM	William R Fairchild Intl
+CLP	Clarks Point
+CLS	Chehalis-Centralia
+CLT	Charlotte/Douglas International
+CLW	Clearwater Air Park
+CMA	Camarillo
+CMH	Port Columbus Intl
+CMI	University of Illinois-Willard
+CMX	Houghton County Memorial
+CMY	Sparta/Fort McCoy
+CNC	Chariton Municipal
+CNH	Claremont Municipal
+CNK	Blosser Municipal
+CNM	Cavern City Air Terminal
+CNO	Chino
+CNP	Billy G Ray
+CNU	Chanute Martin Johnson
+CNW	TSTC-Waco
+CNY	Canyonlands
+COD	Yellowstone Regional
+COE	Coeur D'Alene Air Terminal
+COI	Merritt Island
+COM	Coleman Municipal
+CON	Concord Municipal
+COQ	Cloquet-Carlton County
+COS	City of Colorado Springs Muni
+COT	Cotulla-Lasalle County
+COU	Columbia Regional
+CPC	Columbus County Municipal
+CPK	Chesapeake Municipal
+CPM	Compton/Woodley
+CPR	Natrona County Intl
+CPS	St. Louis Downtown
+CPX	Benjamin Rivera Noriega
+CQA	Lakefield
+CQB	Chandler Municipal
+CQX	Chatham Municipal
+CRC	Circle City
+CRE	Grand Strand
+CRG	Craig Municipal
+CRO	Corcoran
+CRP	Corpus Christi International
+CRQ	McClellan-Palomar
+CRS	C Davis Campbell -Corsicana Muni
+CRT	Crossett Municipal
+CRW	Yeager
+CRX	Roscoe Turner
+CSB	Cambridge Municipal
+CSG	Columbus Metropolitan
+CSM	Clinton-Sherman
+CSQ	Creston Municipal
+CSV	Crossville Memorial
+CTB	Cut Bank Muni
+CTJ	West Georgia Regional
+CTK	Ingersoll
+CTY	Cross City
+CTZ	Sampson County
+CUB	Columbia Owens Downtown
+CUH	Cushing Municipal
+CUL	Carmi Municipal
+CUT	Custer County
+CVG	Cincinnati Northern Kentucky Intl
+CVK	Sharp County Regional
+CVN	Clovis Municipal
+CVO	Corvallis Muni
+CVX	Charlevoix Municipal
+CWA	Central Wisconsin
+CWF	Chennault International
+CWI	Clinton Municipal
+CWV	Claxton-Evans County
+CXC	Chitina
+CXE	Chase City Municipal
+CXF	Coldfoot
+CXL	Calexico International
+CXO	Montgomery County
+CXP	Carson
+CXU	Camilla-Mitchell County
+CXY	Capital City
+CYO	Pickaway County Memorial
+CYS	Cheyenne
+CYW	Clay Center Municipal
+CZD	Cozad Municipal
+CZG	Tri-Cities
+CZL	Tom B David
+CZN	Chisana
+CZT	Dimmit County
+D04	Bowman Municipal
+D05	Garrison Municipal
+D07	Faith Municipal
+D09	Bottineau Municipal
+D19	Quentin Aanenson
+D22	Angola
+D25	Manitowish Waters
+D38	Canandaiga
+D42	Springfield Municipal
+D50	Crosby Municipal
+D55	Robertson
+D57	Glen Ullin Municipal
+D60	Tioga Municipal
+D73	Monroe-Walton County
+D77	Lancaster
+D87	Harbor Springs
+D95	Dupont-Lapeer
+D98	Romeo
+DAB	Daytona Beach International
+DAG	Barstow-Daggett
+DAL	Dallas Love
+DAN	Danville Regional
+DAW	Skyhaven
+DAY	James M Cox Dayton Intl
+DBN	W. H. 'Bud' Barron
+DBQ	Dubuque Municipal
+DCA	Ronald Reagan Washington National
+DCK	Dahl Creek
+DCU	Pryor  Regional
+DCY	Daviess County
+DDC	Dodge City Regional
+DDH	William H. Morse State
+DEC	Decatur
+DED	Deland Municipal-Taylor
+DEE	Deering
+DEH	Decorah Municipal
+DEN	Denver Intl
+DEQ	J Lynn Helms Sevier County
+DET	Detroit City
+DEW	Deer Park
+DFI	Defiance Memorial
+DFW	Dallas-Fort Worth International
+DGW	Converse County
+DHN	Dothan
+DHT	Dalhart Municipal
+DIK	Dickinson Municipal
+DKB	Dekalb-Taylor Municipal
+DKK	Dunkirk Municipal
+DKX	Knoxville Downtown Island
+DLG	Dillingham
+DLH	Duluth International
+DLL	Baraboo - Wisconsin Dells
+DLN	Dillon
+DLO	Delano Municipal
+DLS	Columbia Gorge Regional
+DLZ	Delaware Municipal
+DM2	Diomede Heliport
+DMN	Deming Municipal
+DMO	Sedalia Memorial
+DMW	Carroll County
+DNL	Daniel
+DNN	Dalton Municipal
+DNS	Denison Municipal
+DNV	Vermilion County
+DOV	Dover Air Force Base
+DPA	Du Page
+DPL	P B Raiford
+DQH	Douglas Municipal
+DRI	Beauregard Parish
+DRO	Durango-La Plata County
+DRT	Del Rio International
+DSM	Des Moines International
+DSV	Dansville Muni
+DTA	Delta Municipal
+DTL	Detroit Lakes -Wething
+DTN	Shreveport Downtown
+DTO	Denton Municipal
+DTS	Destin-Ft. Walton Beach
+DTW	Detroit Metropolitan-Wayne County
+DUA	Eaker
+DUC	Halliburton
+DUG	Bisbee Douglas International
+DUJ	Du Bois-Jefferson Cty
+DUT	Unalaska
+DUX	Moore County
+DUY	Kongiganak
+DVK	Stuart Powell
+DVL	Devils Lake Municipal-Knoke
+DVN	Davenport Municipal
+DVO	Gnoss
+DVT	Phoenix-Deer Valley
+DWH	David Wayne Hooks Memorial
+DWU	Ashland-Boyd County
+DXE	Dexter Municipal
+DXR	Danbury Municipal
+DXX	Madison-Lac Qui Parle County
+DYB	Summerville
+DYL	Doylestown
+DYR	Dyersburg Municipal
+DYT	Sky Harbor
+E01	Monahans-Roy Hurd Memorial
+E04	Eunice
+E05	Hatch Muni
+E06	Lea County-Zip Franklin Memorial
+E07	Lea County/Tatum
+E11	Andrews County
+E15	Graham Municipal
+E19	Gruver Municipal
+E24	Whiteriver
+E25	Wickenburg Municipal
+E26	Lea County
+E35	Fabens
+E38	Alpine-Casparis Municipal
+E42	Spearman Municipal
+E51	Bagdad
+E52	Oldham County
+E60	Eloy Municipal
+E63	Gila Bend Municipal
+E80	Alexander Municipal
+E89	Conchas State Park
+E91	Chinle Municipal
+E94	Glenwood-Catron County
+E95	Benson Municipal
+EAA	Eagle
+EAN	Phifer Airfield
+EAR	Kearney Municipal
+EAT	Pangborn Memorial
+EAU	Chippewa Valley Regional
+EBS	Webster City Municipal
+ECG	Elizabeth City CG Air Station/Municipal
+ECS	Mondell
+EDE	Edenton Municipal
+EDN	Enterprise Municipal
+EED	Needles
+EEK	Eek
+EEN	Dillant-Hopkins
+EEO	Meeker
+EET	Shelby County
+EFC	Belle Fourche Municipal
+EFD	Ellington
+EFK	Newport State
+EFT	Monroe Municipal
+EFW	Jefferson Municipal
+EGE	Eagle County Regional
+EGQ	Emmetsburg Municipal
+EGT	Wellington Municipal
+EGV	Eagle River Union
+EHA	Elkhart-Morton County
+EHO	Shelby Municipal
+EHR	Henderson City-County
+EII	Egegik
+EIW	County Memorial
+EKA	Murray
+EKM	Elkhart Municipal
+EKN	Elkins-Randolph Co-Jennings Randolph
+EKO	Elko Regional
+EKQ	Wayne County
+EKX	Elizabethtown
+EKY	Bessemer Municipal
+ELA	Eagle Lake Municipal
+ELD	South Arkansas Regional At Goodwin
+ELI	Elim
+ELK	Elk City Municipal
+ELM	Elmira/Corning Regional
+ELN	Bowers
+ELO	Ely Municipal
+ELP	El Paso International
+ELV	Elfin Cove SPB
+ELY	Ely Arpt (Yelland )
+ELZ	Wellsville Muni Tarantine
+EMM	Kemmerer Municipal
+EMP	Emporia Municipal
+EMT	El Monte
+EMV	Emporia-Greensville Regional
+ENA	Kenai Municipal
+ENL	Centralia Municipal
+ENM	Emmonak
+ENN	Nenana Municipal
+ENV	Wendover
+ENW	Kenosha Regional
+EOK	Keokuk Municipal
+EOS	Neosho Memorial
+EPH	Ephrata Muni
+EPM	Eastport Municipal
+EQA	Captain Jack Thomas
+EQY	Monroe
+ERI	Erie Intl
+ERV	Kerrville Muni/Louis Schreiner
+ERY	Luce County Hale
+ESC	Delta County
+ESF	Esler Regional
+ESN	Easton /Newnam
+EST	Estherville Municipal
+ETB	West Bend Municipal
+ETC	Edgecombe County
+ETH	Wheaton Municipal
+ETN	Eastland Municipal
+EUF	Weedon
+EUG	Mahlon Sweet
+EUL	Caldwell Industrial
+EVB	New Smyrna Beach Municipal
+EVM	Eveleth-Virginia Muni
+EVU	Maryville Memorial
+EVV	Evansville Regional
+EVW	Evanston-Uinta County Burns
+EVY	Summit Airpark
+EWB	New Bedford Municipal
+EWK	Newton-City-County
+EWN	Craven County Regional
+EWR	Newark Intl
+EWU	Newtok
+EXI	Excursion Inlet SPB
+EXX	Davidson County
+EYE	Eagle Creek Airpark
+EYW	Key West International
+EZI	Kewanee Municipal
+EZM	Eastman-Dodge County
+EZZ	Cameron Memorial
+F00	Jones
+F01	Quanah Municipal
+F05	Vernon - Wilbarger County
+F06	Marian Airpark
+F08	Eufaula Municipal
+F10	Henryetta Municipal
+F12	Rusk County
+F17	Center Municipal
+F18	Cleburne Municipal
+F21	Memphis Municipal
+F22	Perry Municipal
+F24	Minden-Webster
+F28	El Reno Municipal
+F29	Clarence E. Page Municipal
+F30	Sulphur Municipal
+F31	Lake Texoma State Park
+F32	Healdton Municipal
+F36	Cordell Municipal
+F37	Wauchula Municipal
+F39	Grayson County
+F41	Ennis Municipal
+F44	Athens Jones Municipal
+F45	North Palm Beach County General Aviation
+F46	Rockwall Municipal
+F49	Slaton Municipal
+F51	Winnsboro Municipal
+F53	Franklin County
+F55	Granbury Municipal
+F56	Arledge
+F70	French Valley
+F80	Atoka Municipal
+F81	Okemah Flying
+F84	Stigler Municipal
+F85	Morton-Cochran County
+F87	Farmerville
+F88	Jonesboro
+F89	Winnsboro Municipal
+F91	Thomas P Stafford
+F99	Holdenville Municipal
+FAI	Fairbanks International
+FAM	Farmington Regional
+FAQ	Fitiuta
+FAR	Hector International
+FAT	Fresno Yosemite International
+FAY	Fayetteville Municipal
+FBL	Faribault Municipal
+FBR	Fort Bridger
+FBY	Fairbury Municipal
+FCA	Glacier Park Intl
+FCH	Fresno-Chandler Downtown
+FCI	Chesterfield County
+FCM	Flying Cloud
+FCY	Forrest City Municipal
+FDK	Frederick Municipal
+FDR	Frederick Municipal
+FDW	Fairfield County
+FDY	Findlay
+FEP	Albertus
+FET	Fremont Municipal
+FFA	First Flight
+FFC	Peachtree City - Falcon
+FFL	Fairfield Municipal
+FFM	Fergus Falls Muni-Einar Mickelson
+FFT	Capital City
+FFZ	Falcon
+FGX	Fleming-Mason
+FHR	Friday Harbor
+FHU	Libby AAF-Sierra Vista Municipal
+FIG	Clearfield-Lawrence
+FIT	Fitchburg Municipal
+FKL	Chess-Lamberton
+FKN	Franklin Municipal-John Beverly Rose
+FKR	Frankfort Municipal
+FLD	Fond Du Lac County
+FLG	Flagstaff Pulliam
+FLL	Fort Lauderdale-Hollywood Int'l
+FLO	Florence Regional
+FLP	Marion County Regional
+FLT	Flat
+FLX	Fallon Municipal
+FME	Tipton
+FMN	Four Corners Regional
+FMY	Page
+FMZ	Fairmont State
+FNB	Brenner
+FNL	Fort Collins-Loveland
+FNR	Funter Bay SPB
+FNT	Bishop
+FOA	Flora
+FOD	Fort Dodge Municipal
+FOE	Forbes
+FOK	Francis Gabreski
+FOT	Rohnerville
+FPR	St. Lucie County International
+FQD	Rutherford County-Marchman
+FRG	Republic
+FRH	French Lick Municipal
+FRM	Fairmont Municipal
+FRR	Front Royal-Warren County
+FSD	Joe Foss
+FSE	Fosston Municipal
+FSK	Fort Scott Municipal
+FSM	Fort Smith Regional
+FSO	Franklin County State
+FST	Fort Stockton - Pecos County
+FSU	Fort Sumner Municipal
+FSW	Fort Madison Municipal
+FTG	Front Range
+FTT	Elton Hensley Memorial
+FTW	Fort Worth Meacham International
+FTY	Fulton County - Brown
+FUL	Fullerton Municipal
+FVE	Northern Aroostook Regional
+FVX	Farmville Municipal
+FWA	Fort Wayne International
+FWC	Fairfield Municipal
+FWN	Sussex
+FWS	Spinks
+FXE	Fort Lauderdale Executive
+FXY	Forest City Municipal
+FYE	Fayette County
+FYM	Fayetteville Municipal
+FYU	Fort Yukon
+FYV	Fayetteville Municipal
+FZG	Fitzgerald Municipal
+FZI	Fostoria Metropolitan
+FZY	Oswego Cty
+GAB	Gabbs
+GAD	Gadsden Municipal
+GAF	Grafton Municipal
+GAG	Gage
+GAI	Montgomery Co Airpark
+GAL	Edward G. Pitka Sr.
+GAM	Gambell
+GAS	Gallia - Meigs Regional
+GBD	Great Bend Municipal
+GBG	Galesburg Municipal
+GBH	Galbraith Lake
+GBR	Great Barrington
+GCC	Gillette-Campbell County
+GCK	Garden City Regional
+GCM	Claremore Regional
+GCN	Grand Canyon National Park
+GCT	Guthrie County Regional
+GCY	Greeneville Municipal
+GDM	Gardner Municipal
+GDV	Dawson Community
+GDW	Gladwin
+GDY	Grundy Municipal
+GED	Sussex Cty Arpt
+GEG	Spokane Intl
+GEO	Brown County
+GEU	Glendale Municipal
+GEY	South Big Horn County
+GEZ	Shelbyville Municipal
+GFK	Grand Forks International
+GFL	Floyd D. Bennett
+GFZ	Greenfield Municipal
+GGE	Georgetown County
+GGF	Grant Municipal
+GGG	Gregg County
+GGI	Grinnell Municipal
+GGP	Logansport Municipal
+GGW	Wokal Field/Glasgow Intl
+GHM	Centerville Municipal
+GHW	Glenwood Municipal
+GIF	Winter Havens Gilbert
+GJT	Walker
+GKJ	Port Meadville
+GKN	Gulkana
+GKT	Gatlinburg-Pigeon Forge
+GKY	Arlington Municipal
+GLD	Renner Field/Goodland Municipal
+GLE	Gainesville Municipal
+GLH	Mid Delta Regional
+GLR	Otsego County
+GLS	Galveston-Scholes
+GLW	Glasgow Municipal
+GLY	Clinton Memorial
+GMJ	Grove Municipal
+GMU	Greenville Downtown
+GNB	Granby-Grand County
+GNF	Grenada Municipal
+GNG	Gooding Municipal
+GNT	Grants-Milan Municipal
+GNU	Goodnews
+GNV	Gainesville Regional
+GOK	Guthrie Municipal
+GON	Groton-New London
+GPH	Clay County Regional
+GPM	Grand Prairie Municipal
+GPT	Gulfport-Biloxi Regional
+GPZ	Grand Rapids-Itasca County
+GQQ	Galion Municipal
+GRB	Austin Straubel International
+GRD	Greenwood County
+GRE	Greenville
+GRI	Central Nebraska Regional
+GRK	Robert Gray AAF
+GRN	Gordon Municipal
+GRO	Rota International
+GRR	Kent County International
+GSH	Goshen Municipal
+GSN	Saipan International
+GSO	Piedmont Triad International
+GSP	Greenville-Spartanburg
+GST	Gustavus
+GTF	Great Falls Intl
+GTR	Golden Triangle Regional
+GTU	Georgetown Municipal
+GUC	Gunnison County
+GUM	Guam International
+GUP	Gallup Municipal
+GUY	Guymon Municipal
+GVL	Lee Gilmer Memorial
+GVQ	Genesee Cty
+GVT	Majors
+GWO	Greenwood-Leflore
+GWR	Gwinner-Roger Melroe
+GWW	Goldsboro-Wayne Municipal
+GXY	Greeley-Weld County
+GYH	Donaldson Center
+GYR	Phoenix Goodyear
+GYY	Gary/Chicago
+GZH	Middleton
+GZS	Abernathy
+H04	Vinita Municipal
+H05	Wilburton Municipal
+H19	Bowling Green Municipal
+H21	Camdenton Memorial
+H30	Hamilton Municipal
+H35	Clarksville Municipal
+H41	Memorial
+H45	Seminole Municipal
+H66	Nowata Municipal
+H71	Mid-America Industrial
+H79	Eldon Model Airpark
+H88	Municipal
+H92	Hominy
+H96	Benton Municipal
+H97	Pawnee Municipal
+HAB	Marion County
+HAE	Hannibal Municipal
+HAF	Half Moon Bay
+HAI	Three Rivers Municipal
+HAO	Hamilton-Fairfield
+HAY	Haycock
+HBC	Mohall Municipal
+HBG	Bobby L. Chain Municipal
+HBR	Hobart Municipal
+HBV	Jim Hogg County
+HBZ	Heber Springs Municipal
+HCD	Hutchinson Municipal
+HCO	Hallock Municipal
+HDC	Hammond Municipal
+HDE	Brewster
+HDH	Dillingham Airfield
+HDI	Hardwick
+HDN	Yampa Valley
+HDO	Hondo Municipal
+HEE	Thompson-Robbins
+HEF	Manassas Reg./Harry P Davis
+HEI	Hettinger Municipal
+HEQ	Holyoke
+HEZ	Natchez-Adams County
+HFD	Hartford Brainard
+HFY	Greenwood Municipal
+HGR	Hagerstown Regional-Richard Henson
+HHF	Hemphill County
+HHG	Huntington Municipal
+HHH	Hilton Head
+HHR	Jack Northrop Field/Hawthorne Municipal
+HHW	Stan Stamper Municipal
+HIB	Chisholm-Hibbing
+HIE	Mt Washington Regional
+HIG	Higginsville Industrial Municipal
+HII	Lake Havasu City
+HIO	Portland-Hillsboro
+HJH	Hebron Municipal
+HJO	Hanford Municipal
+HKA	Blytheville Municipal
+HKS	Hawkins
+HKY	Hickory Municipal
+HLC	Hill City Municipal
+HLG	Wheeling-Ohio Cty
+HLN	Helena Regional
+HLX	Twin County
+HMT	Hemet-Ryan
+HMZ	Bedford County
+HNB	Huntingburg
+HNH	Hoonah
+HNL	Honolulu International
+HNM	Hana
+HNR	Harlan Municipal
+HNS	Haines
+HNZ	Henderson-Oxford
+HOB	Lea County Regional
+HOC	Highland County
+HOE	Homerville
+HOM	Homer
+HON	Huron Regional
+HOT	Memorial
+HOU	William P Hobby
+HPB	Hooper Bay
+HPN	Westchester Cty
+HPT	Hampton Municipal
+HQG	Hugoton Municipal
+HQM	Bowerman
+HQU	Thomson-McDuffie County
+HQZ	Mesquite Metro
+HRI	Hermiston Muni
+HRL	Valley International
+HRO	Boone County
+HRR	Healy River
+HRU	Herington Municipal
+HRX	Hereford Municipal
+HSA	Stennis International
+HSB	Harrisburg-Raleigh
+HSE	Billy Mitchell
+HSI	Hastings Municipal
+HSL	Huslia
+HSP	Ingalls
+HSR	Hot Springs Municipal
+HSV	Huntsville International
+HTH	Hawthorne Municipal
+HTL	Roscommon County
+HTO	East Hampton
+HTS	Tri-State/Walker-Long
+HTW	Lawrence County Airpark,Inc
+HUF	Terre Haute International-Hulman
+HUL	Houlton International
+HUM	Houma-Terrebonne
+HUS	Hughes
+HUT	Hutchinson Municipal
+HVC	Hopkinsville-Christian County
+HVE	Hanksville
+HVN	Tweed-New Haven
+HVR	Havre City-County
+HVS	Hartsville Municipal
+HWD	Hayward Executive
+HWI	Hawk Inlet SPB
+HWO	North Perry
+HWQ	Wheatland County  At Harlowton
+HWV	Brookhaven
+HXD	Hilton Head
+HXF	Hartford Municipal
+HYA	Barnstable Mun Boardman/Polando
+HYG	Hydaburg SPB
+HYI	San Marcos Municipal
+HYL	Hollis SPB
+HYR	Sawyer County
+HYS	Hays Municipal
+HYW	Conway-Horry County
+HZD	Carroll County
+HZE	Mercer County Regional
+HZL	Hazleton Muni
+HZR	False River Air Park
+HZY	Ashtabula County
+I05	Sturgis Municipal
+I12	Sidney Municipal
+I16	Kee
+I18	Jackson County
+I19	Greene County
+I22	Randolph County
+I23	Fayette County
+I25	Welch Muni
+I32	Morehead-Rowan County
+I34	Greensburg-Decatur County
+I35	Tucker-Guthrie Memorial
+I39	Madison County
+I40	Richard Downing
+I42	Paoli Municipal
+I43	James A Rhodes
+I50	Stanton
+I57	Pike County
+I63	Mt. Sterling Municipal
+I66	Clinton
+I67	Cincinnati West
+I68	Lebanon-Warren County
+I69	Clermont County
+I74	Grimes
+I75	Osceola Municipal
+I76	Peru Municipal
+I78	Union County
+I83	Salem Municipal
+I86	Perry County
+I88	Pontiac Municipal
+I93	Breckinridge County
+I95	Hardin County
+IAD	Washington Dulles International
+IAG	Niagara Falls Intl
+IAH	George Bush Intercontinental
+IAN	Bob Baker Memorial
+IBM	Robert E. Arraj
+ICL	Schenck
+ICT	Wichita Mid-Continent
+IDA	Idaho Falls Regional
+IDI	Indiana Cty/Jimmy Stewart
+IDL	Indianola Municipal
+IDP	Independence Municipal
+IEM	Whittier
+IEN	Pine Ridge
+IER	Natchitoches Municipal
+IFA	Iowa Falls Municipal
+IFP	Laughlin/Bullhead International
+IGG	Igiugig
+IGM	Kingman
+IGQ	Lansing Municipal
+IGT	Nightmute
+IIB	Independence Municipal
+IIK	Kipnuk
+IIY	Washington-Wilkes County
+IJD	Windham
+IJX	Jacksonville Municipal
+IKK	Greater Kankakee
+IKV	Ankeny Regional
+ILE	Killeen Municipal
+ILG	New Castle County
+ILI	Iliamna
+ILM	Wilmington International
+IML	Imperial Municipal
+IMM	Immokalee
+IMS	Madison Municipal
+IMT	Ford
+IND	Indianapolis International
+INK	Winkler County
+INL	Falls International
+INT	Smith Reynolds
+INW	Winslow-Lindbergh Regional
+IOB	Mt Sterling-Montgomery County
+IOW	Iowa City Municipal
+IPJ	Lincoln County
+IPL	Imperial County
+IPT	Williamsport-Lycoming Cty
+IRK	Kirksville Regional
+IRS	Kirsch Municipal
+ISM	Kissimmee Municipal
+ISN	Sloulin Field International
+ISO	Kinston Regional Jetport At Stallin
+ISP	Long Island - MacArthur
+ISQ	Schoolcraft County
+ISW	Alexander
+ISZ	Cincinnati-Blue Ash
+ITH	Tompkins Cty
+ITO	Hilo International
+ITR	Kit Carson County
+IWA	Williams Gateway
+IWD	Gogebic County
+IWH	Wabash Municipal
+IWI	Wiscasset
+IWK	Wales
+IWS	West Houston
+IXD	New Century Aircenter
+IYK	Inyokern
+IYS	Wasilla
+IZA	Santa Ynez
+IZG	Eastern Slopes Regional
+JAC	Jackson Hole
+JAN	Jackson International
+JAS	Jasper County -Bell
+JAU	Campbell County
+JAX	Jacksonville International
+JBR	Jonesboro Municipal
+JCT	Kimble County
+JDN	Jordan
+JEF	Jefferson City Memorial
+JER	Jerome County
+JES	Jesup-Wayne County
+JFK	John F Kennedy Intl
+JFX	Walker County
+JHM	Kapalua
+JHW	Chautauqua Cty
+JKA	Jack Edwards
+JKJ	Moorhead Municipal
+JKL	Julian Carroll
+JLN	Joplin Regional
+JMR	Mora Municipal
+JMS	Jamestown Municipal
+JNU	Juneau International
+JNX	Johnston County
+JOT	Joliet Park District
+JQF	Concord Regional
+JRA	Port Authority-W 30th St Midtown Heliport
+JRB	Downtown Manhattan/Wall St. Heliport
+JRF	Kalaeloa (John Rodgers )
+JSO	Jacksonville-Cherokee County
+JST	Johnstown-Cambria Cty
+JVL	Rock County
+JVY	Clark County
+JWG	Watonga
+JWN	John C. Tune
+JXN	Jackson County Reynolds
+JYG	St James Municipal
+JYL	Plantation Airpark
+JYM	Hillsdale Municipal
+JYO	Leesburg Executive
+JYR	Municipal
+JZI	Charleston Executive
+JZP	Pickens County
+JZZ	Koliganek
+K01	Farington
+K02	Perryville Municipal
+K06	Greater Beardstown
+K09	Piseco Muni
+K15	Linn Creek-Grand Glaize Memorial
+K20	Wendell H. Ford
+K22	Big Sandy Regional
+K24	Russell County
+K29	Council
+K33	Salem Memorial
+K34	Municipal
+K39	St Clair Memorial
+K46	Blair Municipal
+K54	Teller
+K57	Gould Peterson Municipal
+K59	Amelia Earhart
+K61	Moritz Memorial
+K62	Falmouth Pendleton County
+K67	Oswego Municipal
+K68	Garnett Municipal
+K78	Abilene Municipal
+K81	Miami County
+K82	Smith Center Municipal
+K83	Sabetha Municipal
+K88	Allen County
+K89	Macon-Fower Memorial
+K96	Tuscola
+KAE	Kake SPB
+KAL	Kaltag
+KCC	Coffman Cove SPB
+KCL	Chignik Lagoon
+KEB	English Bay
+KEK	Ekwok
+KFP	False Pass
+KGX	Grayling
+KIB	Ivanof Bay SPB
+KIC	Mesa Del Rey
+KKA	Koyuk
+KKB	Kitoi Bay SPB
+KLG	Kalskag
+KLL	Levelock
+KLS	Kelso-Longview
+KNB	Kanab Muni
+KNW	Stuyahok
+KOA	Kona International At Keahole
+KPB	Point Baker SPB
+KPH	Pauloff Harbor SPB
+KQA	Akutan SPB
+KSM	St. Mary's
+KTB	Thorne Bay
+KTN	Ketchikan International
+KTS	Brevig Mission
+KVC	King Cove
+KVL	Kivalina
+KWT	Kwethluk
+KXA	Kasaan SPB
+KYK	Karluk
+KYU	Koyukuk
+L04	Holtville
+L05	Kern Valley
+L06	Furnace Creek
+L08	Borrego Valley
+L12	Redlands Municipal
+L15	Henderson
+L17	Taft-Kern County
+L18	Fallbrook Community Airpark
+L19	Wasco-Kern County
+L26	Hesperia
+L31	Greater St. Tammany Parish
+L35	Big Bear City
+L38	Louisiana Regional
+L39	Leesville
+L42	Allen Parish
+L45	Bakersfield Municipal
+L49	South Lafourche
+L52	Oceano County
+L67	Rialto Municipal
+L70	Agua Dulce Airpark
+L71	California City Municipal
+L72	Trona
+L75	Southland
+L83	Thibodaux Municipal
+L84	Lost Hills-Kern County
+L92	Alamo Landing
+LAA	Lamar Muni
+LAF	Purdue University
+LAL	Lakeland Linder Regional
+LAM	Los Alamos
+LAN	Capital City
+LAR	Laramie Regional
+LAS	McCarran International
+LAW	Lawton-Ft Sill Regional
+LAX	Los Angeles International
+LBB	Lubbock International
+LBE	Arnold Palmer Regional
+LBF	North Platte Regional
+LBL	Liberal Municipal
+LBO	Floyd W Jones Lebanon
+LBT	Lumberton Municipal
+LBX	Brazoria County
+LCG	Wayne Municipal
+LCH	Lake Charles Regional
+LCI	Laconia Municipal
+LCK	Rickenbacker International
+LCQ	Lake City Municipal
+LDJ	Linden
+LDM	Mason County
+LEB	Lebanon Municipal
+LEE	Leesburg Regional
+LEM	Lemmon Municipal
+LEW	Auburn-Lewiston Municipal
+LEX	Blue Grass
+LFK	Lufkin-Angelina County
+LFT	Lafayette Regional
+LGA	LaGuardia
+LGB	Long Beach (Daugherty )
+LGC	LaGrange-Callaway
+LGD	La Grande/Union County
+LGU	Logan-Cache
+LHD	Lake Hood SPB
+LHM	Lincoln Regional
+LHQ	Fairfield County
+LHV	Wm T Piper Memorial
+LHX	La Junta Muni
+LHZ	Franklin County
+LIC	Limon Municipal
+LIH	Lihue
+LIT	Adams
+LJF	Litchfield Municipal
+LKP	Lake Placid
+LKR	Lancaster County
+LKU	Louisa County / Freeman
+LKV	Lake County
+LLJ	Challis
+LLQ	Monticello Municipal
+LLU	Lamar Municipal
+LMS	Louisville-Winston County
+LMT	Klamath Falls International
+LNA	Palm Beach County Park
+LNC	Lancaster
+LND	Hunt
+LNK	Lincoln Municipal
+LNL	Kings Land O' Lakes
+LNN	Lost Nation
+LNP	Lonesome Pine
+LNS	Lancaster
+LNY	Lanai
+LOL	Derby
+LOT	Lewis University
+LOU	Bowman
+LOZ	London-Corbin  Magee
+LPC	Lompoc
+LPR	Lorain Co Regional
+LQK	Pickens County
+LQR	Larned-Pawnee County
+LRD	Laredo International
+LRG	Lincoln Regional
+LRJ	Le Mars Municipal
+LRU	Las Cruces International
+LSB	Lordsburg Municipal
+LSE	La Crosse Municipal
+LSK	Lusk Muni
+LSN	Los Banos Municipal
+LUG	Ellington
+LUK	Cincinnati Muni-Lunken
+LUL	Hesler-Noble
+LUP	Kalaupapa
+LVJ	Clover
+LVK	Livermore Municipal
+LVM	Mission
+LVN	Airlake
+LVS	Las Vegas Municipal
+LWB	Greenbrier Valley
+LWC	Lawrence Municipal
+LWD	Lamoni Municipal
+LWL	Wells Municipal/Harriet
+LWM	Lawrence Municipal
+LWS	Lewiston-Nez Perce County
+LWT	Lewistown Muni
+LWV	Lawrenceville-Vincennes Municipal
+LXL	Little Falls - Morrison County
+LXN	Lexington (Jim Kelly )
+LXT	Lee's Summit Municipal
+LXV	Lake County
+LXY	Mexia-Limestone County
+LYH	Lynchburg Municipal-Preston Glenn
+LYO	Lyons-Rice County Municipal
+LZU	Gwinnett County
+M01	General Dewitt Spain
+M02	Dickson Municipal
+M03	Dennis F Cantrell
+M04	Covington Municipal
+M05	Caruthersville Memorial
+M08	William L. Whitehurst
+M09	Piedmont Municipal
+M11	Copiah County
+M13	Poplarville-Pearl River County
+M15	Perry County
+M16	John Bell Williams
+M17	Bolivar Municipal
+M18	Hope Municipal
+M19	Newport Municipal
+M21	Muhlenberg County
+M22	Russellville Municipal
+M23	James H. Easom
+M24	Dean Griffin Memorial
+M25	Mayfield-Graves County
+M27	Waldron Municipal
+M29	Hassel
+M30	Metropolis Municipal
+M32	Lake Village Municipal
+M33	Sumner County Regional
+M34	Kentucky Dam State Park
+M36	Frank Federer Memorial
+M37	Ruleville-Drew
+M39	Mena Intermountain Municipal
+M40	Monroe County
+M41	Holly Springs-Marshall County
+M43	Prentiss-Jefferson Davis County
+M44	Houston Municipal
+M46	Colstrip
+M48	Houston Memorial
+M52	Franklin-Wilkins
+M53	Humboldt Municipal
+M54	Lebanon Municipal
+M58	Monett Municipal
+M59	Richton-Perry County
+M60	Woodruff County
+M65	Wynne Municipal
+M70	Pocahontas Municipal
+M72	New Albany-Union County
+M73	Almyra Municipal
+M75	Malta
+M76	Picayune Municipal
+M77	Howard County
+M78	Malvern Municipal
+M79	John H Hooks Jr Memorial
+M82	Madison County Executive
+M83	McCharen
+M89	Dexter B. Florence Memorial
+M91	Springfield-Robertson County
+M95	Richard Arthur
+M97	Tunica Municipal
+M99	Saline County/Watts
+MAC	Herbert Smart Downtown
+MAE	Madera Municipal
+MAF	Midland International
+MAI	Marianna Municipal
+MAL	Malone-Dufort
+MAO	Marion County
+MAW	Malden Municipal
+MAZ	Eugenio Maria De Hostos
+MBG	Mobridge Municipal
+MBL	Manistee County Blacker
+MBO	Bruce Campbell
+MBS	Mbs International
+MBT	Murfreesboro Municipal
+MBY	Omar N Bradley
+MCB	McComb-Pike County
+MCD	Mackinac Island
+MCE	Merced Municipal/MacReady
+MCG	McGrath
+MCI	Kansas City International
+MCK	McCook Municipal
+MCN	Middle Georgia Regional
+MCO	Orlando International
+MCW	Mason City Municipal
+MCX	White County
+MCZ	Martin County
+MDD	Midland Airpark
+MDF	Mooreland Municipal
+MDH	Southern Illinois
+MDR	Medfra
+MDS	Madison Municipal
+MDT	Harrisburg Intl
+MDW	Chicago Midway
+MDZ	Taylor County
+MEB	Laurinburg-Maxton
+MEI	Key
+MEJ	Meade Municipal
+MEM	Memphis International
+MER	Castle
+MEV	Minden-Tahoe
+MEY	Mapleton Municipal
+MFD	Mansfield Lahm Municipal
+MFE	McAllen Miller International
+MFI	Marshfield Municipal
+MFR	Rogue Valley International
+MFV	Accomack County
+MGC	Michigan City Municipal
+MGJ	Orange Cty
+MGM	Montgomery Regional Apt
+MGR	Moultrie Municipal
+MGW	Morgantown Muni-Walter L. Bill Hart Fld.
+MGY	Dayton Wright Brothers
+MHE	Mitchell Municipal
+MHK	Manhattan Regional
+MHL	Marshall Memorial Municipal
+MHM	Minchumina
+MHP	Metter Municipal
+MHR	Sacramento Mather
+MHT	Manchester
+MHV	Mojave
+MIA	Miami International
+MIB	Minot AFB
+MIC	Crystal
+MIE	Delaware County
+MIO	Miami Municipal
+MIT	Shafter-Minter
+MIV	Millville Muni
+MIW	Marshalltown Municipal
+MJQ	Jackson Municipal
+MJX	Robert J. Miller Airpark
+MKA	Miller Municipal
+MKC	Downtown
+MKE	General Mitchell International
+MKG	Muskegon County
+MKJ	Mountain Empire
+MKK	Molokai
+MKL	McKellar-Sipes Regional
+MKO	Davis
+MKT	Mankato Regional
+MKV	Marksville Municipal
+MKY	Marco Island
+MLB	Melbourne International
+MLC	McAlester Regional
+MLE	Millard
+MLF	Milford Municipal
+MLI	Quad City
+MLJ	Baldwin County
+MLL	Marshall
+MLS	Frank Wiley
+MLT	Millinocket Municipal
+MLU	Monroe Regional
+MLY	Manley Hot Springs
+MMH	Mammoth Yosemite
+MMI	McMinn County
+MMK	Meriden-Markham Municipal
+MML	Marshall Muni - Ryan
+MMU	Morristown Municipal
+MMV	McMinnville Muni
+MNF	Mountain View
+MNI	Clarendon County
+MNM	Menominee-Marinette Twin County
+MNN	Marion Municipal
+MNV	Monroe County
+MNZ	Hamilton Municipal
+MO6	Washington Memorial
+MOB	Mobile Regional
+MOD	Modesto City-County-Harry Sham
+MOP	Mount Pleasant Municipal
+MOR	Moore-Murrell
+MOT	Minot International
+MOU	Mountain Village
+MOX	Morris Municipal
+MPE	Philadelphia Municipal
+MPJ	Petit Jean Park
+MPO	Pocono Mountains Muni
+MPR	McPherson
+MPV	Edward F Knapp State
+MPZ	Mount Pleasant Municipal
+MQB	Macomb Municipal
+MQI	Dare County Regional
+MQJ	Mount Comfort
+MQT	Marquette County Airport
+MQW	Telfair-Wheeler
+MQY	Smyrna
+MRB	Eastern Wv Reg/Shephard
+MRC	Maury County
+MRF	Marfa Municipal
+MRH	Michael J. Smith
+MRI	Merrill
+MRJ	Iowa County
+MRN	Morganton-Lenoir
+MRY	Monterey Peninsula
+MSA	Mount Pleasant Municipal
+MSL	Northwest Alabama Regional
+MSN	Dane County Regional
+MSO	Missoula International
+MSP	Minneapolis-St Paul Intl
+MSS	Massena Int'l-Richards
+MSV	Sullivan Cty Intl
+MSY	New Orleans International
+MTH	Florida Keys Marathon
+MTJ	Montrose Regional
+MTM	Metlakatla SPB
+MTN	Martin State
+MTO	Coles County Memorial
+MTP	Montauk
+MTV	Blue Ridge
+MTW	Manitowoc County
+MUE	Waimea-Kohala
+MUT	Muscatine Municipal
+MVC	Monroe County
+MVE	Montevideo-Chippewa County
+MVI	Monte Vista Muni
+MVL	Morrisville-Stowe State
+MVM	Machias Valley
+MVN	Mt Vernon-Outland
+MVY	Marthas Vineyard
+MWA	Williamson County
+MWC	Lawrence J Timmerman
+MWH	Grant County
+MWK	Mount Airy-Surry County
+MWL	Mineral Wells Municipal
+MWM	Windom Municipal
+MWO	Hook Field Municipal
+MXA	Manila Municipal
+MXO	Monticello Municipal
+MYF	Montgomery
+MYK	May Creek
+MYL	McCall
+MYR	Myrtle Beach International
+MYU	Mekoryuk
+MYV	Yuba County
+MYZ	Marysville Municipal
+MZJ	Pinal Airpark
+MZZ	Marion Municipal
+N00	Maben
+N03	Cortland Cty-Chase
+N04	Griswold
+N07	Lincoln Park
+N10	Perkiomen Valley
+N12	Lakewood
+N13	Bloomsburg Muni
+N14	Flying W
+N23	Sidney Muni
+N24	Questa Municipal Nr 2
+N25	Westport
+N27	Bradford County
+N29	Magdalena
+N30	Cherry Ridge
+N35	Punxsutawney Muni
+N37	Monticello
+N38	Grand Canyon State
+N40	Sky Manor
+N47	Pottstown Muni
+N51	Solberg-Hunterdon
+N53	Stroudsburg-Pocono
+N57	New Garden Flying
+N66	Oneonta Muni
+N67	Wings
+N68	Chambersburg Muni
+N69	Stormville
+N72	Warwick Muni
+N73	Red Lion
+N79	Northumberland Cty
+N81	Hammonton Muni
+N82	Wurtsboro-Sullivan Cty
+N85	Alexandria
+N87	Trenton-Robbinsville
+N89	Joseph Y. Resnick
+N93	New Golovin
+N99	Brandywine
+NEW	Lakefront
+NQA	Millington Municipal
+NRN	Norton Municipal
+NUL	Nulato
+NVD	Nevada Municipal
+NY0	Fulton Cty
+O02	Nervino
+O05	Rogers
+O08	Colusa County
+O09	Round Valley
+O11	Cherokee Nation
+O15	Turlock Municipal
+O16	Garberville
+O17	Nevada County  Air Park
+O19	Kneeland
+O21	Hoopa
+O22	Columbia
+O24	Lee Vining
+O26	Lone Pine
+O27	Oakdale
+O28	Ells Field-Willits Municipal
+O31	Healdsburg Municipal
+O32	Reedley Municipal
+O35	Hollis Municipal
+O37	Haigh
+O41	Watts-Woodland
+O42	Woodlake
+O43	Yerington Municipal
+O45	Hooker Municipal
+O46	Weed
+O47	Prague Municipal
+O48	Little River
+O52	Sutter County
+O53	Medford Municipal
+O54	Lonnie Pool /Weaverville
+O57	Bryant
+O59	Cedarville
+O60	Cloverdale Municipal
+O61	Cameron Airpark
+O65	Okeene Municipal
+O68	Mariposa-Yosemite
+O69	Petaluma Municipal
+O70	Westover Field Amador County
+O81	Tulelake Municipal
+O85	Benton
+O86	Trinity Center
+O88	Rio Vista Municipal
+O89	Fall River Mills
+OAJ	Albert J Ellis
+OAK	Metropolitan Oakland International
+OAR	Marina Municipal
+OBE	Okeechobee County
+OBU	Kobuk
+OCF	Ocala Regional/Jim Taylor
+OCH	Nacogdoches-A.L. Mangham Jr. Regional
+OCQ	Oconto Municipal
+OCW	Warren
+ODO	Odessa-Schlemeyer
+ODX	Evelyn Sharp
+OEB	Branch County Memorial
+OEL	Oakley Municipal
+OEO	L. O. Simenstad Municipal
+OFK	Karl Stefan Memorial
+OFP	Hanover County Municipal
+OGA	Searle
+OGB	Orangeburg Municipal
+OGD	Ogden-Hinckley
+OGG	Kahului
+OGM	Ontonagon County
+OGS	Ogdensburg Intl
+OIC	Lt Warren Eaton
+OIN	Oberlin Municipal
+OJC	Johnson County Executive
+OKB	Oceanside Municipal
+OKC	Will Rogers World
+OKK	Kokomo Municipal
+OKM	Okmulgee Municipal
+OKS	Garden County
+OKV	Winchester Regional
+OKZ	Kaolin
+OLD	Dewitt Field-Old Town Municipal
+OLE	Olean Muni
+OLF	L M Clayton
+OLM	Olympia
+OLS	Nogales International
+OLU	Columbus Municipal
+OLV	Olive Branch
+OLY	Olney-Noble
+OLZ	Oelwein Municipal
+OMA	Eppley Airfield
+OME	Nome
+OMH	Orange County
+OMK	Omak
+OMN	Ormond Beach Municipal
+ONA	Winona Muni-Max Conrad
+ONL	O Neill Municipal
+ONM	Socorro Municipal
+ONO	Ontario Muni
+ONP	Newport Muni
+ONT	Ontario International
+ONY	Olney Municipal
+ONZ	Grosse Ile Municipal
+OOA	Oskaloosa Municipal
+OOH	Hoonah SPB
+OOK	Toksook Bay
+OPF	Opa-Locka
+OPL	St Landry Parish - Ahart
+OPN	Thomaston-Upton County
+OQU	Quonset State
+OQW	Maquoketa Municipal
+ORB	Orr Regional
+ORC	Orange City Municipal
+ORD	Chicago O'Hare International
+ORE	Orange Municipal
+ORF	Norfolk International
+ORG	Orange County
+ORH	Worcester Regional
+ORI	Port Lions
+ORL	Executive
+ORS	Orcas Island
+ORT	Northway
+ORV	Robert(Bob) Curtis Memorial
+OSC	Oscoda - Wurtsmith
+OSH	Wittman Regional
+OSU	Ohio State University
+OSX	Kosciusko-Attala County
+OTG	Worthington Municipal
+OTH	North Bend Muni
+OTM	Ottumwa Industrial
+OTZ	Ralph Wien Memorial
+OUN	University of Oklahoma Westheimer
+OVE	Oroville Municipal
+OVO	North Vernon
+OVS	Boscobel
+OWA	Owatonna Degner Regional
+OWB	Owensboro-Daviess County
+OWD	Norwood Memorial
+OWI	Ottawa Municipal
+OWK	Central Maine
+OWX	Putnam County
+OXB	Ocean City
+OXC	Waterbury-Oxford
+OXD	Miami University
+OXI	Starke County
+OXR	Oxnard
+OXV	Knoxville Municipal
+OYM	St Marys Muni
+OZA	Ozona Municipal
+OZW	Livingston County
+P01	Ajo Municipal
+P04	Bisbee Municipal
+P08	Coolidge Municipal
+P13	San Carlos Apache
+P14	Holbrook Municipal
+P20	Avi Suquilla
+P32	H.A. Clark Memorial
+P33	Cochise County
+P45	Mount Pleasant-Scottdale
+P52	Cottonwood
+P53	Rostraver
+PAE	Snohomish County
+PAH	Barkley Regional
+PAK	Port Allen
+PAN	Payson
+PAO	Palo Alto Arpt of Santa Clara Co
+PAQ	Palmer Municipal
+PBF	Grider
+PBH	Price County
+PBI	Palm Beach International
+PBV	St. George
+PCK	Porcupine Creek
+PCM	Plant City Municipal
+PCW	Carl R. Keller
+PCZ	Waupaca Municipal
+PDC	Prairie Du Chien Municipal
+PDK	Dekalb-Peachtree
+PDT	Eastern Oregon Regional At Pendleton
+PDX	Portland Intl
+PEA	Pella Municipal
+PEC	Pelican SPB
+PEO	Penn Yan
+PEQ	Pecos Municipal
+PEZ	Pleasanton Municipal
+PFN	Panama City-Bay County International
+PGA	Page Municipal
+PGD	Charlotte County
+PGM	Port Graham
+PGR	Kirk
+PGV	Pitt-Greenville
+PHD	Harry Clever
+PHF	Newport News/Williamsburg International
+PHG	Phillipsburg Municipal
+PHH	Andrews Municipal
+PHK	Palm Beach County Glades
+PHL	Philadelphia Intl
+PHN	St Clair County International
+PHO	Point Hope
+PHP	Philip
+PHT	Henry County
+PHX	Phoenix Sky Harbor International
+PIA	Greater Peoria Regional
+PIB	Hattiesburg-Laurel Regional
+PIE	St. Petersburg-Clearwater International
+PIH	Pocatello Regional
+PIL	Port Isabel-Cameron County
+PIM	Callaway Gardens-Harris County
+PIR	Pierre Regional
+PIT	Pittsburgh International
+PIZ	Point Lay Dew Station
+PJY	Pinckneyville-Duquoin
+PKA	Napaskiak
+PKB	Wood Cty/Gill Robb Wilson
+PKD	Park Rapids Municipal
+PKF	Park Falls Municipal
+PLB	Clinton Cty
+PLD	Portland Municipal
+PLN	Pellston Regional  of Emmet County
+PLR	St Clair County
+PMB	Pembina Municipal
+PMD	Palmdale Production Flight
+PMH	Greater Portsmouth Regional
+PMP	Pompano Beach Airpark
+PMV	Plattsmouth Municipal
+PMX	Metropolitan
+PMZ	Plymouth Municipal
+PNA	Ralph Wenz
+PNC	Ponca City Municipal
+PNE	Northeast Philadelphia
+PNM	Princeton Municipal
+PNN	Princeton Municipal
+PNP	Pilot Point
+PNS	Pensacola Regional
+POC	Brackett
+POF	Poplar Bluff Municipal
+POH	Pocahontas Municipal
+POU	Dutchess Cty
+POY	Powell Muni
+PPA	Perry Lefors
+PPC	Prospect Creek
+PPF	Tri City
+PPG	Pago Pago International
+PPO	La Porte Municipal
+PPQ	Pittsfield Penstone Municipal
+PQI	Northern Maine Regional
+PQL	Trent Lott International
+PQN	Pipestone Municipal
+PRB	Paso Robles Municipal
+PRC	Ernest A. Love
+PRG	Edgar County
+PRN	Greenville Municipal
+PRO	Perry Municipal
+PRX	Cox
+PSB	Mid-State
+PSC	Tri-Cities
+PSE	Mercedita
+PSF	Pittsfield Municipal
+PSG	James C. Johnson Petersburg
+PSK	New River Valley
+PSM	Pease International Tradeport
+PSN	Palestine Municipal
+PSP	Palm Springs International
+PSX	Palacios Municipal
+PTB	Dinwiddie County
+PTD	Potsdam Muni-Damon
+PTH	Port Heiden
+PTK	Oakland-Pontiac
+PTN	Harry P. Williams Memorial
+PTS	Atkinson Municipal
+PTT	Pratt Industrial
+PTU	Platinum
+PTV	Porterville Municipal
+PTW	Pottstown Limerick
+PUB	Pueblo Memorial
+PUC	Carbon County
+PUW	Pullman/Moscow Regional
+PVB	Platteville Municipal
+PVC	Provincetown Municipal
+PVD	Theodore F Green State
+PVF	Placerville
+PVG	Hampton Roads Executive
+PVJ	Pauls Valley Municipal
+PVU	Provo Muni
+PVW	Hale County
+PWA	Wiley Post
+PWC	Pine River Regional
+PWD	Sher-Wood
+PWG	McGregor Exectuive
+PWK	Palwaukee
+PWM	Portland International Jetport
+PWT	Bremerton National
+PXE	Perry-Houston Couty
+PYG	Pageland
+PYM	Plymouth Municipal
+PYX	Perryton Ochiltree County
+PZQ	Presque Isle County
+Q00	Littlefield Municipal
+Q06	City of Tulia/Swisher County Municipal
+Q14	San Juan Pueblo
+Q16	Reserve
+Q17	Boonville
+Q21	Brownsville
+Q24	Levelland Municipal
+Q25	Dinsmore
+Q26	Terry County
+Q31	Sequoia
+Q34	Portales Municipal
+Q35	Springerville Babbitt
+Q37	Carrizozo Municipal
+Q41	Floydada Municipal
+Q42	Springer Municipal
+Q44	Beaver Municipal
+Q49	Firebaugh
+Q53	Franklin
+Q55	Dimmitt Municipal
+Q58	Santa Rosa Municipal
+Q61	Georgetown
+Q68	Pine Mountain Lake
+Q72	Hayfork
+Q84	Mendota
+Q88	Paradise Skypark
+Q94	Rio Linda
+Q95	Ruth
+Q99	South County  of Santa Clara Co
+RAC	John H Batten
+RAL	Riverside Municipal
+RAP	Rapid City Regional
+RBD	Redbird
+RBE	Bassett Municipal
+RBG	Roseburg Regional
+RBL	Red Bluff Municipal
+RBW	Walterboro Municipal
+RBY	Ruby
+RCA	Ellsworth AFB
+RCR	Fulton County
+RCX	Rusk County
+RDD	Redding Municipal
+RDG	Reading Muni,Gen Carl A Spaatz
+RDK	Red Oak Municipal
+RDM	Roberts
+RDR	Grand Forks AFB
+RDU	Raleigh-Durham International
+RDV	Red Devil
+RED	Red Lodge
+RFD	Greater Rockford
+RFG	Refugio-Rooke
+RGK	Red Wing Municipal
+RHI	Rhinelander-Oneida County
+RHV	Reid-Hillview of Santa Clara Co
+RIC	Richmond International
+RID	Richmond Municipal
+RIF	Richfield Muni
+RIL	Garfield County Regional
+RIU	Rancho Murieta
+RIV	March
+RIW	Riverton Regional
+RKD	Knox County Regional
+RKP	Aransas County
+RKR	Robert S Kerr
+RKS	Rock Springs-Sweetwater County
+RKW	Rockwood Municipal
+RLD	Richland
+RME	Griffis Airpark
+RMG	Richard B Russell
+RMP	Rampart
+RMY	Brooks
+RNC	Warren County Memorial
+RNH	New Richmond Municipal
+RNM	Ramona
+RNO	Reno/Tahoe International
+RNT	Renton Municipal
+RNV	Cleveland Municipal
+ROA	Roanoke Regional/ Woodrum
+ROC	Greater Rochester Int'l
+ROG	Rogers Municipal-Carter
+ROS	Rush City Regional
+ROW	Roswell Industrial Air Center
+ROX	Roseau Municipal
+RPB	Belleville Municipal
+RPD	Rice Lake Regional-Carl's
+RPX	Roundup
+RQB	Roben-Hood
+RQE	Window Rock
+RRL	Merrill Municipal
+RRT	Warroad Intl Swede Carlson
+RSH	Russian Mission
+RSL	Russell Municipal
+RSN	Ruston Regional
+RST	Rochester International
+RSV	Robinson Municipal
+RSW	Southwest Florida International
+RTN	Raton Municipal/Crews
+RUE	Russellville Municipal
+RUG	Rugby Municipal
+RUQ	Rowan County
+RUT	Rutland State
+RVJ	Reidsville
+RVL	Mifflin Cty
+RVN	Hawkins County
+RVS	Richard Lloyd Jones, Jr.
+RWF	Redwood Falls Muni
+RWI	Rocky Mount Wilson
+RWL	Rawlins Muni
+RWN	Arens
+RXE	Rexburg-Madison County
+RYN	Ryan
+RYV	Watertown Municipal
+RYY	Cobb County-McCollum
+RZL	Jasper County
+RZN	Burnett County
+RZT	Ross County
+RZZ	Halifax County
+S01	Conrad
+S03	Ashland Muni-Sumner Parker
+S05	Bandon State
+S07	Bend Muni
+S10	Chelan Muni
+S12	Albany Municipal
+S18	Forks
+S21	Sunriver
+S23	Ione Municipal
+S24	Sandusky Co
+S25	Watford City Municipal
+S27	Kalispell City
+S28	International Peace Garden
+S30	Lebanon State
+S31	Lopez Island
+S32	Cooperstown Municipal
+S33	City-County
+S34	Plains
+S39	Prineville
+S40	Prosser
+S43	Harvey
+S45	Siletz Bay State
+S47	Tillamook
+S50	Auburn Municipal
+S52	Methow Valley State
+S59	Libby
+S60	Kenmore Air Harbor Inc
+S64	Stanford
+S66	Homedale Municipal
+S67	Nampa Muni
+S68	Orofino Municipal
+S69	Lincoln
+S70	Othello Muni
+S71	Edgar G Obie
+S72	St Maries Municipal
+S73	Kamiah Municipal
+S80	Idaho County
+S83	Shoshone County
+S85	Big Sky
+S87	Weiser Municipal
+S89	Craigmont Municipal
+S93	Cle Elum Municipal
+S94	Whitman County Memorial
+S97	Anderson
+SAA	Shively
+SAC	Sacramento Executive
+SAD	Safford Regional
+SAF	Santa Fe Municipal
+SAN	San Diego International-Lindbergh
+SAR	Sparta Community-Hunter
+SAT	San Antonio International
+SAV	Savannah International
+SAW	Sawyer
+SAZ	Staples Municipal
+SBA	Santa Barbara Municipal
+SBD	San Bernardino International
+SBM	Sheboygan County Memorial
+SBN	South Bend Regional
+SBO	Emanuel County
+SBP	San Luis Obispo Co-McChesney
+SBS	Steamboat Springs
+SBU	Blue Earth Municipal
+SBX	Shelby
+SBY	Salisbury-Ocean City: Wicomico Regional
+SCB	Scribner State
+SCC	Deadhorse
+SCD	Merkel Field Sylacauga Municipal
+SCE	University Park
+SCH	Schenectady Cty
+SCK	Stockton Metro
+SCM	Scammon Bay
+SCX	Scott Municipal
+SDA	Shenandoah Municipal
+SDF	Louisville International-Standiford
+SDL	Scottsdale
+SDM	Brown  Municipal
+SDP	Sand Point Municipal
+SDY	Sidney-Richland Municipal
+SEA	Seattle-Tacoma Intl
+SEE	Gillespie
+SEF	Sebring  And Industrial Park
+SEG	Penn Valley
+SEM	Craig
+SEP	Clark Field Municipal
+SER	Freeman Municipal
+SET	St Charles County Smart
+SEZ	Sedona
+SFB	Orlando Sanford
+SFD	Bob Wiley
+SFF	Felts
+SFM	Sanford Regional
+SFO	San Francisco International
+SFQ	Suffolk Municipal
+SFY	Tri-Township
+SFZ	North Central State
+SGF	Springfield-Branson Regional
+SGH	Springfield-Beckley Municipal
+SGJ	St. Augustine
+SGR	Sugar Land Municipal/Hull
+SGS	South St.Paul Municipal
+SGT	Stuttgart Municipal
+SGU	St George Muni
+SGY	Skagway
+SHD	Shenandoah Valley Regional
+SHG	Shungnak
+SHH	Shishmaref
+SHL	Sheldon Municipal
+SHN	Sanderson
+SHR	Sheridan County
+SHV	Shreveport Regional
+SHX	Shageluk
+SIG	Fernando Luis Ribas Dominicci
+SIK	Sikeston Memorial Municipal
+SIT	Sitka
+SIV	Sullivan County
+SIY	Siskiyou County
+SJC	San Jose International
+SJN	St Johns Industrial Air Park
+SJT	San Angelo Regional /Mathis
+SJU	Luis Munoz Marin International
+SJX	Beaver Island
+SKA	Fairchild AFB
+SKI	Sac City Municipal
+SKW	Skwentna
+SKX	Taos Municipal
+SLB	Storm Lake Municipal
+SLC	Salt Lake City Intl
+SLE	McNary Fld
+SLG	Smith
+SLK	Adirondack
+SLN	Salina Municipal
+SLO	Salem-Leckrone
+SLQ	Sleetmute
+SLR	Sulphur Springs Municipal
+SMD	Smith
+SME	Somerset-Pulaski County
+SMF	Sacramento International
+SMN	Lemhi County
+SMO	Santa Monica Municipal
+SMQ	Somerset
+SMS	Sumter Municipal
+SMX	Santa Maria Pub/Capt G Allan Hancock
+SNA	John Wayne /Orange Co
+SNH	Savannah Hardin County
+SNK	Winston
+SNL	Shawnee Municipal
+SNP	St. Paul
+SNS	Salinas Municipal
+SNY	Sidney Municipal
+SOP	Moore County
+SOV	Seldovia
+SOW	Show Low Municipal
+SPA	Spartanburg Downtown Memorial
+SPB	Scappoose Industrial Airpark
+SPF	Black Hills-Clyde Ice
+SPG	Albert Whitted Municipal
+SPH	Springhill
+SPI	Capital
+SPS	Sheppard AFB/Wichita Falls Municipal
+SPW	Spencer Municipal
+SPX	Houston-Gulf
+SQI	Whiteside Co
+SQL	San Carlos
+SRB	Upper Cumberland Regional
+SRC	Searcy Municipal
+SRQ	Sarasota Bradenton International
+SRR	Sierra Blanca Regional
+SRV	Stony River 2
+SSF	Stinson Municipal
+SSI	Malcolm McKinnon
+SSQ	Shell Lake Municipal
+STC	St Cloud Regional
+STE	Stevens Point Municipal
+STF	George M Bryan
+STJ	Rosecrans Memorial
+STK	Crosson
+STL	Lambert-St Louis International
+STP	St Paul Downtown Holman
+STS	Sonoma Co
+STT	Cyril E. King
+STX	Henry E. Rohlsen
+SUA	Witham
+SUD	Stroud Municipal
+SUE	Door County Cherryland
+SUN	Friedman Memorial
+SUS	Spirit of St Louis
+SUT	Brunswick County
+SUW	Richard I Bong
+SUX	Sioux Gateway
+SVA	Savoonga
+SVC	Grant County
+SVE	Susanville Municipal
+SVH	Statesville Municipal
+SVS	Stevens Village
+SWD	Seward
+SWF	Stewart
+SWO	Stillwater Regional
+SWT	Seward Municipal
+SWW	Avenger
+SXL	Summersville
+SXP	Sheldon Point
+SXQ	Soldotna
+SYF	Cheyenne County Municipal
+SYI	Bomar Field-Shelbyville Municipal
+SYR	Syracuse-Hancock Intl
+SYV	Sylvester
+SZP	Santa Paula
+SZT	Sandpoint
+SZY	Robert Sibley
+T00	Chambers County
+T03	Tuba City
+T08	Tomahawk Regional
+T18	Brooks County
+T28	Lampasas Municipal
+T35	Cameron Municipal Airpark
+T36	Paul Pittman Memorial
+T41	La Porte Municipal
+T44	Trident Basin
+T47	Kickapoo Downtown Airpark
+T49	Big Spring McMahon-Wrinkle
+T53	Robstown-Nueces County
+T56	Crockett-Houston County
+T57	Garland Heliport
+T60	Stonewall County
+T65	Mid Valley
+T69	Sinton-San Patricio County
+T71	Cuero Municipal
+T72	Hearne Municipal
+T74	Taylor Municipal
+T78	Liberty Municipal
+T80	Kleberg County
+T82	Gillespie County
+T89	Castroville Municipal
+T90	Chambers County
+T97	Calhoun County
+TAD	Perry Stokes
+TAL	Ralph M Calhoun Memorial
+TAN	Taunton Municipal
+TAZ	Taylorville Municipal
+TBN	Forney AAF
+TBR	Statesboro Municipal
+TCC	Tucumcari Municipal
+TCL	Tuscaloosa Municipal
+TCS	Truth Or Consequences Municipal
+TCT	Takotna
+TCY	Tracy Municipal
+TDF	Person County
+TDO	Toledo-Winlock Ed Carlson Memorial
+TDZ	Toledo Metcalf
+TEB	Teterboro
+TEL	Perry County Municipal
+TEW	Mason Jewett
+TEX	Telluride Regional
+TGC	Gibson County
+TGI	Tangier Island
+THA	Tullahoma Regional
+THM	Thompson Falls
+THP	Hot Springs County-Thermopolis Municipal
+THV	York
+TIW	Tacoma Narrows
+TIX	Space Cost Regional
+TKA	Talkeetna
+TKE	Tenakee SPB
+TKI	McKinney Municipal
+TKX	Kennett Memorial
+TLH	Tallahassee Regional
+TLR	Mefford
+TLT	Tuluksak
+TMA	Henry Tift Myers
+TMB	Kendall-Tamiami Executive
+TNI	West Tinian
+TNP	Twentynine Palms
+TNT	Dade Collier T And T
+TNU	Newton Municipal
+TOA	Zamperini
+TOB	Dodge Center
+TOC	Toccoa, R G Le Tourneau
+TOG	Togiak Village
+TOI	Troy Municipal
+TOL	Toledo Express
+TOP	Philip Billard Municipal
+TOR	Torrington Muni
+TPA	Tampa International
+TPF	Peter O. Knight
+TPH	Tonopah
+TPL	Draughon-Miller Central Texas Regional
+TPO	Port Alsworth
+TQE	Municipal
+TQH	Tahlequah Municipal
+TQK	Scott City Municipal
+TRI	Tri-Cities Regional
+TRK	Truckee-Tahoe
+TRL	Terrell Municipal
+TRM	Desert Resorts Regional
+TRX	Trenton Municipal
+TSO	Carroll County-Tolson
+TSP	Tehachapi Municipal
+TTA	Sanford-Lee County Regional
+TTD	Portland-Troutdale
+TTF	Monroe Custer
+TTN	Trenton-Mercer County
+TUL	Tulsa International
+TUP	Tupelo Municipal
+TUS	Tucson International
+TVB	Cabool Memorial
+TVC	Cherry Capital
+TVF	Thief River Falls Regional
+TVI	Thomasville Municipal
+TVK	Centerville Municipal
+TVL	Lake Tahoe
+TVR	Vicksburg Tallulah Regional
+TVY	Tooele Valley
+TWF	Joslin Field - Magic Valley
+TWM	Richard B. Helgeson
+TXK	Texarkana Regional-Webb
+TYL	Taylor
+TYQ	Indianapolis Terry
+TYR	Tyler Pounds
+TYS	McGhee-Tyson
+TZR	Bolton
+TZT	Belle Plaine Municipal
+TZV	Tompkinsville-Monroe County
+U02	McCarley
+U03	Buhl Municipal
+U05	Riddick
+U08	Perkins
+U10	Preston
+U14	Nephi Municipal
+U25	Dubois Municipal
+U30	Temple Bar
+U34	Green River Muni
+U36	Aberdeen Municipal
+U42	Salt Lake City Municipal 2
+U43	Monticello
+U52	Beaver Municipal
+U55	Panguitch Municipal
+U59	Driggs-Reed Memorial
+U68	North Big Horn County
+U69	Duchesne Municipal
+U70	Cascade
+U76	Mountain Home Municipal
+U77	Spanish Fork-Springville
+U82	Council Municipal
+U96	Cal Black Memorial
+UAO	Aurora State
+UBE	Cumberland Municipal
+UBS	Columbus-Lowndes County
+UBX	Cuba Municipal
+UCA	Oneida Cty
+UCP	New Castle Muni
+UCY	Everett-Stewart
+UDD	Bermuda Dunes
+UDG	Darlington County
+UES	Waukesha County
+UGN	Waukegan Regional
+UIL	Quillayute
+UIN	Quincy Municipal-Baldwin
+UIZ	Berz-Macomb
+UKF	Wilkes County
+UKI	Ukiah Municipal
+UKL	Coffey County
+UKT	Quakertown
+ULM	New Ulm Municipal
+ULS	Ulysses
+UMP	Indianapolis Metropolitan
+UNI	Ohio University
+UNK	Unalakleet
+UNO	West Plains Municipal
+UNU	Dodge County
+UNV	University Park
+UOS	Franklin County
+UOX	University-Oxford
+UPP	Upolu
+USE	Fulton County
+UTS	Huntsville Municipal
+UUO	Willow
+UUU	Newport State
+UUV	Sullivan Regional
+UVA	Garner
+UWL	New Castle-Henry Co
+UYF	Madison County
+UZA	Rock Hill Municipal/Bryant
+VAK	Chevak
+VAY	South Jersey Reg
+VBT	Bentonville Municipal
+VCB	Nut Tree
+VCT	Victoria Regional
+VCV	Southern California Logistic
+VDI	Vidalia Municipal
+VDZ	Valdez
+VEE	Venetie
+VEL	Vernal
+VER	Jesse Viertel Memorial
+VES	Darke County
+VGT	North Las Vegas
+VHN	Culberson County
+VIH	Rolla National
+VIQ	Neillsville Municipal
+VIS	Visalia Municipal
+VJI	Virginia Highlands
+VLA	Vandalia Municipal
+VLD	Valdosta Regional
+VMR	Harold Davidson
+VNC	Venice Municipal
+VNW	Van Wert County
+VNY	Van Nuys
+VPC	Cartersville
+VPS	Eglin Air Force Base
+VPZ	Porter County Municipal
+VQQ	Cecil
+VQS	Antonio Rivera Rodriguez
+VRB	Vero Beach Municipal
+VSF	Springfield State/Hartness
+VTA	Newark-Heath
+VTI	Vinton Veterans Memorial Airpark
+VTN	Miller
+VUJ	Stanly County
+VUO	Pearson Airpark
+VVV	Ortonville Municipal
+VYS	Illinois Valley Regional
+W04	Ocean Shores Municipal
+W05	Gettysburg  & Travel Center
+W11	Menomonie Municipal - Score
+W22	Upshur County Regional
+W29	Bay Bridge Industrial
+W31	Lunenburg County
+W33	Friday Harbor
+W40	Mt Olive Municipal
+W41	Crisfield Municipal
+W44	Asheboro Municipal
+W45	Luray Caverns
+W66	Warrenton-Fauquier
+W78	William M Tuck
+W95	Ocracoke Island
+W96	New Kent County
+W97	Middle Peninsula Regional
+W99	Grant County
+WAY	Greene Cty
+WBB	Stebbins
+WBQ	Beaver
+WBW	Wilkes-Barre Wyoming Valley
+WCR	Chandalar Lake
+WDG	Enid Woodring Municipal
+WDR	Winder
+WHP	Whiteman
+WJF	General Wm. J. Fox Airfield
+WLD	Strother
+WLK	Selawik
+WLW	Willows-Glenn County
+WMC	Winnemucca Municipal
+WMO	White Mountain
+WNA	Napakiak
+WRG	Wrangell
+WRL	Worland Muni
+WSM	Wiseman
+WSN	South Naknek 2
+WST	Westerly State
+WTK	Noatak
+WVI	Watsonville Municipal
+WVL	Waterville-Robert Lafleur
+WWD	Cape May Cty
+WWR	West Woodward
+WYS	Yellowstone
+X01	Everglades
+X06	Arcadia Municipal
+X07	Lake Wales Municipal
+X10	Belle Glade Municipal
+X14	Labelle Municipal
+X16	Vandenberg
+X21	Arthur Dunn Airpark
+X23	Umatilla Municipal
+X26	Sebastian Municipal
+X35	Dunnellon/Marion Co.
+X40	Inverness
+X44	Watson Island Base
+X46	Opa-Locka West
+X47	Flagler County
+X51	Homestead General Aviation
+X59	Valkaria
+X60	Williston Municipal
+X63	Humacao
+X66	Charlotte Amalie Harbor Seaplane Base
+X67	Christiansted Harbor Seaplane Base
+X95	Diego Jimenez Torres
+X96	Cruz Bay Harbor Seaplane Base
+XNA	Northwest Arkansas Regional
+XVG	Longville Municipal
+Y03	Springfield Municipal
+Y14	Marv Skie-Lincoln County
+Y15	Cheboygan City-County
+Y19	Mandan Municipal
+Y27	Standing Rock
+Y31	West Branch Community
+Y37	Park River Municipal
+Y47	New Hudson
+Y50	Wautoma Municipal
+Y51	Viroqua Municipal
+Y55	Crandon Municipal
+Y63	Elbow Lake Municipal
+Y66	Drummond Island
+Y68	Tracy Municipal
+Y70	Ionia County
+Y74	Hankins
+Y83	Sandusky City
+Y93	Atlanta Municipal
+YAK	Yakutat
+YIP	Willow Run
+YKM	Yakima Air Terminal
+YKN	Chan Gurney Municipal
+YNG	Youngstown-Warren Regional
+YUM	Yuma MCAS-Yuma International
+Z08	Ofu
+Z09	Kasigluk
+Z13	Akiachak
+Z17	Ophir
+Z40	Goose Bay
+Z55	Lake Louise
+Z73	Nelson Lagoon
+Z84	Clear
+Z91	Birch Creek
+Z95	Cibecue
+ZEF	Elkin Municipal
+ZER	Schuylkill Cty/Joe Zerbey
+ZPH	Zephyrhills Municipal
+ZUN	Black Rock
+ZZV	Zanesville Municipal
