@@ -93,6 +93,8 @@ def results():
     import get_flightstats as gfs
     import apply_RF_model as am
     import cache as c
+
+    _, carrier_dict_code = mu.read_carrier_dict()
     
     ## cmap = plt.get_cmap('RdYlGn_r')
     cdict = {'red': ((0.0, 0.0, 0.0),
@@ -199,9 +201,11 @@ def results():
         (flightstats, model_summaries) = cached_results
 
     ## end of 'if not cached_results:'
+
+    
     carriers = [x['Carrier'] for x in flightstats]
     unique_carriers = list(np.unique(np.array([item for sublist in carriers for item in sublist])))
-    print unique_carriers
+    unique_carriers = [{'name':x,'code':carrier_dict_code[x]} for x in unique_carriers]
     
     ### Render the page
     return render_template('results.html',

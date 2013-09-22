@@ -53,18 +53,23 @@
 	  View model details</a>
 	</div>
 	<script> $('#model_info').popover() </script>
+      </div> <!-- panel-heading -->
 
-      </div>
       <div class="panel-body">
 	{% if request_info.mode == 0 %}
 	<p class="lead">Flights from {{ request_info.origin }} to {{ request_info.destination }} departing on {{ request_info.date_string }}.</p>
 	{% elif request_info.mode == 1 %}
 	<p class="lead">Flight {{request_info.carrier}}{{request_info.flightnumber}} departing on {{ request_info.date_string }}.</p>
 	{% endif %}
-      </div>
-     
+      </div> <!-- panel-heading -->
 
-    <table class="table table-hover table-condensed tablesorter" id="results_table">
+      <!-- Create an empty div to hold the filters -->
+      <div id="filters" class="carrier_All online_only"></div>
+
+      <!-- Note that I'm keeping the table out of the panel-body,
+           because I think it looks better this way. -->
+
+      <table class="table table-hover table-condensed tablesorter" id="results_table">
       <thead>
 	<tr>
 	  <th>Carrier &nbsp;</th>
@@ -80,21 +85,20 @@
           <td class="dropdown">
             <a id="carrier_filter" role="button" class="btn btn-default btn-block btn-sm" data-toggle="dropdown" href="#" style="text-align:left; padding-left:5px">Filter &nbsp; <b class="caret"></b></a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="carrier_filter">
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="carrier_all">All Flights</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="carrier_on-line">Single Carrier Flights</a></li>
-              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="carrier_all" class="toggled-on">All Carriers</a></li>
               {% for carrier in unique_carriers %}
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" class="carrier_single">{{carrier}}</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" class="carrier_single carrier_{{carrier.code}}">{{carrier.name}}</a></li>
               {% endfor %}
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="carrier_on-line" class="toggled-on">Only One-Carrier Flights</a></li>
             </ul>
           </td>
           <td colspan="3"></td>
           <td colspan="2" class="dropdown">
             <a id="connections_filter" role="button" class="btn btn-default btn-block btn-sm" data-toggle="dropdown" href="#" style="text-align:left; padding-left:5px">Filter &nbsp; <b class="caret"></b></a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="connections_filter">
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="connections_all">All Flights</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="connections_direct">Direct Flights</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="connections_withstop">Flights with Connections</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="connections_nonstop">Only Non-stop Flights</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="connections_withstop">Only Flights with Connections</a></li>
             </ul>
           </td>
           <td></td>
@@ -105,16 +109,19 @@
       <tbody class="text-center" id="results_table_body">
 	{% for row in flightstats %}
         
-        {% set row_class_connections = "direct" %}
-        {% set row_class_carrier = "online" %}
+        {% set row_class_carrier = row.CarrierCode[0] %}
+        {% set row_class_connection = "non-stop" %}
+        {% set row_class_online = "online" %}
+
         {% if row.Nlegs > 1 %}
-          {% set row_class_connections = "withstop" %}
-          {% if row.Carrier[0] != row.Carrier[1] %}
-            {% set row_class_carrier = "offline" %}
+          {% set row_class_connection = "withstop" %}
+          {% if row.CarrierCode[0] != row.CarrierCode[1] %}
+            {% set row_class_carrier = row_class_carrier + ' ' + row.CarrierCode[1] %}
+            {% set row_class_online = "offline" %}
           {% endif %}
         {% endif %}
 
-        <tr class="{{ row_class_carrier }} {{ row_class_connections }}">
+        <tr class="{{ row_class_carrier }} {{ row_class_online }} {{ row_class_connection }} visible">
 	  <td> {{ row.Carrier[0] }} {% if row.Nlegs > 1 %}<br>{{ row.Carrier[1] }}{% endif %}</td>
 	  <td> {{ row.FlightNumber[0] }} {% if row.Nlegs > 1 %}<br>{{ row.FlightNumber[1] }}{% endif %}</td>
 	  <td> {{ row.DepartureTime[0] }} {% if row.Nlegs > 1 %}<br>{{ row.DepartureTime[1] }}{% endif %}</td>
@@ -144,12 +151,14 @@
         {% endfor %}
       </tbody>
 
-    </table>
-    </div>
+      </table>
+    </div>  <!-- "panel panel-default" -->
 
 
     <script>
       $('.dropdown-toggle').dropdown()
+      $('.btn-group-vertical').button()
+      show_filtered_table_rows();
     </script>
     
 {% endblock %}

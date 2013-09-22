@@ -39,9 +39,6 @@ def apply_RF_model(flights, origin, destination):
         ### Create Origin flights DataFrame        
         df = flights[ flights['Origin'] == origin ]
         df, FlightID = fill_dataframe(df,train_cols)
-
-        print df.to_string()
-        print FlightID
         
         ### at last, apply the model
         Pdelay_orig = dict( zip(FlightID, rfor.predict_proba(df.values)[:,1]) )
