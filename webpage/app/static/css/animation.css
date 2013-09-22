@@ -1,3 +1,737 @@
+@keyframes myanim {
+    0.0% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 6.0% 95%, 45.0% 95.0%;
+    }
+    1.1% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 7.0% 95%, 45.0% 95.0%;
+    }
+    2.2% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 8.0% 95%, 45.0% 95.0%;
+    }
+    3.3% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 9.0% 95%, 45.0% 95.0%;
+    }
+    4.4% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_00.png');
+    background-position: 10.0% 95%, 45.0% 95.0%;
+    }
+    5.6% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_00.png');
+    background-position: 11.0% 95%, 45.0% 95.0%;
+    }
+    6.7% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_00.png');
+    background-position: 12.0% 95%, 45.0% 95.0%;
+    }
+    7.8% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 13.0% 95%, 45.0% 95.0%;
+    }
+    8.9% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 14.0% 95%, 45.0% 95.0%;
+    }
+    10.0% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 15.0% 95%, 45.0% 95.0%;
+    }
+    11.1% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 16.0% 95%, 45.0% 95.0%;
+    }
+    12.2% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_00.png');
+    background-position: 17.0% 95%, 45.0% 95.0%;
+    }
+    13.3% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_00.png');
+    background-position: 18.0% 95%, 45.0% 95.0%;
+    }
+    14.4% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_00.png');
+    background-position: 19.0% 95%, 45.0% 95.0%;
+    }
+    15.6% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 20.0% 95%, 45.0% 95.0%;
+    }
+    16.7% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 21.0% 95%, 45.0% 95.0%;
+    }
+    17.8% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 22.0% 95%, 45.0% 95.0%;
+    }
+    18.9% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 23.0% 95%, 45.0% 95.0%;
+    }
+    20.0% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_00.png');
+    background-position: 24.0% 95%, 45.2% 95.0%;
+    }
+    21.1% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_00.png');
+    background-position: 24.9% 95%, 45.6% 95.0%;
+    }
+    22.2% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_00.png');
+    background-position: 25.8% 95%, 46.2% 95.0%;
+    }
+    23.3% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 26.7% 95%, 47.0% 95.0%;
+    }
+    24.4% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 27.6% 95%, 48.0% 95.0%;
+    }
+    25.6% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 28.4% 95%, 49.2% 95.0%;
+    }
+    26.7% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 29.2% 95%, 50.6% 95.0%;
+    }
+    27.8% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_00.png');
+    background-position: 29.9% 95%, 52.2% 95.0%;
+    }
+    28.9% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_00.png');
+    background-position: 30.7% 95%, 54.0% 95.0%;
+    }
+    30.0% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_00.png');
+    background-position: 31.4% 95%, 56.0% 95.0%;
+    }
+    31.1% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 32.0% 95%, 58.2% 95.0%;
+    }
+    32.2% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 32.7% 95%, 60.6% 95.0%;
+    }
+    33.3% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 33.3% 95%, 63.2% 95.0%;
+    }
+    34.4% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 33.9% 95%, 65.8% 95.0%;
+    }
+    35.6% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_01.png');
+    background-position: 34.4% 95%, 68.4% 94.9%;
+    }
+    36.7% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_02.png');
+    background-position: 34.9% 95%, 71.0% 94.6%;
+    }
+    37.8% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_03.png');
+    background-position: 35.4% 95%, 73.6% 94.2%;
+    }
+    38.9% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_04.png');
+    background-position: 35.9% 95%, 76.2% 93.6%;
+    }
+    40.0% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_05.png');
+    background-position: 36.3% 95%, 78.8% 93.0%;
+    }
+    41.1% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_06.png');
+    background-position: 36.7% 95%, 81.4% 92.1%;
+    }
+    42.2% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_07.png');
+    background-position: 37.1% 95%, 84.0% 91.2%;
+    }
+    43.3% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_08.png');
+    background-position: 37.4% 95%, 86.6% 90.1%;
+    }
+    44.4% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_09.png');
+    background-position: 37.7% 95%, 89.2% 88.8%;
+    }
+    45.6% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_10.png');
+    background-position: 38.0% 95%, 91.8% 87.5%;
+    }
+    46.7% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_11.png');
+    background-position: 38.2% 95%, 94.4% 86.0%;
+    }
+    47.8% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_12.png');
+    background-position: 38.5% 95%, 97.0% 84.3%;
+    }
+    48.9% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_13.png');
+    background-position: 38.7% 95%, 99.6% 82.5%;
+    }
+    50.0% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_14.png');
+    background-position: 38.8% 95%, 102.2% 80.6%;
+    }
+    51.1% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_15.png');
+    background-position: 38.9% 95%, 104.8% 78.5%;
+    }
+    52.2% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_16.png');
+    background-position: 39.0% 95%, 107.4% 76.2%;
+    }
+    53.3% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_17.png');
+    background-position: 39.1% 95%, 110.0% 73.8%;
+    }
+    54.4% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_18.png');
+    background-position: 39.2% 95%, 112.6% 71.3%;
+    }
+    55.6% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_19.png');
+    background-position: 39.2% 95%, 115.2% 68.6%;
+    }
+    56.7% {
+    background-image:url('/static/anim/standing_00.png'), url('/static/anim/airplane_20.png');
+    background-position: 39.2% 95%, 117.8% 65.8%;
+    }
+    57.8% {
+    background-image:url('/static/anim/standing_00.png'), url('/static/anim/airplane_21.png');
+    background-position: 39.2% 95%, 120.4% 62.8%;
+    }
+    58.9% {
+    background-image:url('/static/anim/standing_00.png'), url('/static/anim/airplane_22.png');
+    background-position: 39.2% 95%, 123.0% 59.6%;
+    }
+    60.0% {
+    background-image:url('/static/anim/standing_01.png'), url('/static/anim/airplane_23.png');
+    background-position: 39.2% 95%, 125.6% 56.3%;
+    }
+    61.1% {
+    background-image:url('/static/anim/standing_01.png'), url('/static/anim/airplane_24.png');
+    background-position: 39.2% 95%, 128.2% 52.9%;
+    }
+    62.2% {
+    background-image:url('/static/anim/standing_01.png'), url('/static/anim/airplane_25.png');
+    background-position: 39.2% 95%, 130.8% 49.2%;
+    }
+    63.3% {
+    background-image:url('/static/anim/standing_02.png'), url('/static/anim/airplane_26.png');
+    background-position: 39.2% 95%, 133.4% 45.4%;
+    }
+    64.4% {
+    background-image:url('/static/anim/standing_02.png'), url('/static/anim/airplane_27.png');
+    background-position: 39.2% 95%, 136.0% 41.4%;
+    }
+    65.6% {
+    background-image:url('/static/anim/standing_02.png'), url('/static/anim/airplane_28.png');
+    background-position: 39.2% 95%, 138.6% 37.3%;
+    }
+    66.7% {
+    background-image:url('/static/anim/standing_03.png'), url('/static/anim/airplane_29.png');
+    background-position: 39.2% 95%, 141.2% 33.0%;
+    }
+    67.8% {
+    background-image:url('/static/anim/standing_03.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 143.8% 28.5%;
+    }
+    68.9% {
+    background-image:url('/static/anim/standing_03.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 146.4% 24.0%;
+    }
+    70.0% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 149.0% 19.5%;
+    }
+    71.1% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 151.6% 15.0%;
+    }
+    72.2% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 154.2% 10.4%;
+    }
+    73.3% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 156.8% 5.9%;
+    }
+    74.4% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 159.4% 1.4%;
+    }
+    75.6% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 162.0% -3.1%;
+    }
+    76.7% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 164.6% -7.6%;
+    }
+    77.8% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 167.2% -12.1%;
+    }
+    78.9% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 169.8% -16.6%;
+    }
+    80.0% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 172.4% -21.1%;
+    }
+    81.1% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 175.0% -25.6%;
+    }
+    82.2% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 177.6% -30.1%;
+    }
+    83.3% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 180.2% -34.6%;
+    }
+    84.4% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 182.8% -39.1%;
+    }
+    85.6% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 185.4% -43.6%;
+    }
+    86.7% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 188.0% -48.1%;
+    }
+    87.8% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 190.6% -52.6%;
+    }
+    88.9% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 193.2% -57.1%;
+    }
+    90.0% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 195.8% -61.6%;
+    }
+    91.1% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 198.4% -66.1%;
+    }
+    92.2% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 201.0% -70.6%;
+    }
+    93.3% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 203.6% -75.1%;
+    }
+    94.4% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 206.2% -79.6%;
+    }
+    95.6% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 208.8% -84.1%;
+    }
+    96.7% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 211.4% -88.6%;
+    }
+    97.8% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 214.0% -93.1%;
+    }
+    98.9% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 216.6% -97.6%;
+    }
+    100.0% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 219.2% -102.1%;
+    }
+}
+
+@-moz-keyframes myanim {
+    0.0% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 6.0% 95%, 45.0% 95.0%;
+    }
+    1.1% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 7.0% 95%, 45.0% 95.0%;
+    }
+    2.2% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 8.0% 95%, 45.0% 95.0%;
+    }
+    3.3% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 9.0% 95%, 45.0% 95.0%;
+    }
+    4.4% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_00.png');
+    background-position: 10.0% 95%, 45.0% 95.0%;
+    }
+    5.6% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_00.png');
+    background-position: 11.0% 95%, 45.0% 95.0%;
+    }
+    6.7% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_00.png');
+    background-position: 12.0% 95%, 45.0% 95.0%;
+    }
+    7.8% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 13.0% 95%, 45.0% 95.0%;
+    }
+    8.9% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 14.0% 95%, 45.0% 95.0%;
+    }
+    10.0% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 15.0% 95%, 45.0% 95.0%;
+    }
+    11.1% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 16.0% 95%, 45.0% 95.0%;
+    }
+    12.2% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_00.png');
+    background-position: 17.0% 95%, 45.0% 95.0%;
+    }
+    13.3% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_00.png');
+    background-position: 18.0% 95%, 45.0% 95.0%;
+    }
+    14.4% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_00.png');
+    background-position: 19.0% 95%, 45.0% 95.0%;
+    }
+    15.6% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 20.0% 95%, 45.0% 95.0%;
+    }
+    16.7% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 21.0% 95%, 45.0% 95.0%;
+    }
+    17.8% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 22.0% 95%, 45.0% 95.0%;
+    }
+    18.9% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 23.0% 95%, 45.0% 95.0%;
+    }
+    20.0% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_00.png');
+    background-position: 24.0% 95%, 45.2% 95.0%;
+    }
+    21.1% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_00.png');
+    background-position: 24.9% 95%, 45.6% 95.0%;
+    }
+    22.2% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_00.png');
+    background-position: 25.8% 95%, 46.2% 95.0%;
+    }
+    23.3% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 26.7% 95%, 47.0% 95.0%;
+    }
+    24.4% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 27.6% 95%, 48.0% 95.0%;
+    }
+    25.6% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 28.4% 95%, 49.2% 95.0%;
+    }
+    26.7% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 29.2% 95%, 50.6% 95.0%;
+    }
+    27.8% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_00.png');
+    background-position: 29.9% 95%, 52.2% 95.0%;
+    }
+    28.9% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_00.png');
+    background-position: 30.7% 95%, 54.0% 95.0%;
+    }
+    30.0% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_00.png');
+    background-position: 31.4% 95%, 56.0% 95.0%;
+    }
+    31.1% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
+    background-position: 32.0% 95%, 58.2% 95.0%;
+    }
+    32.2% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_00.png');
+    background-position: 32.7% 95%, 60.6% 95.0%;
+    }
+    33.3% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_00.png');
+    background-position: 33.3% 95%, 63.2% 95.0%;
+    }
+    34.4% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_00.png');
+    background-position: 33.9% 95%, 65.8% 95.0%;
+    }
+    35.6% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_01.png');
+    background-position: 34.4% 95%, 68.4% 94.9%;
+    }
+    36.7% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_02.png');
+    background-position: 34.9% 95%, 71.0% 94.6%;
+    }
+    37.8% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_03.png');
+    background-position: 35.4% 95%, 73.6% 94.2%;
+    }
+    38.9% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_04.png');
+    background-position: 35.9% 95%, 76.2% 93.6%;
+    }
+    40.0% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_05.png');
+    background-position: 36.3% 95%, 78.8% 93.0%;
+    }
+    41.1% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_06.png');
+    background-position: 36.7% 95%, 81.4% 92.1%;
+    }
+    42.2% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_07.png');
+    background-position: 37.1% 95%, 84.0% 91.2%;
+    }
+    43.3% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_08.png');
+    background-position: 37.4% 95%, 86.6% 90.1%;
+    }
+    44.4% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_09.png');
+    background-position: 37.7% 95%, 89.2% 88.8%;
+    }
+    45.6% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_10.png');
+    background-position: 38.0% 95%, 91.8% 87.5%;
+    }
+    46.7% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_11.png');
+    background-position: 38.2% 95%, 94.4% 86.0%;
+    }
+    47.8% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_12.png');
+    background-position: 38.5% 95%, 97.0% 84.3%;
+    }
+    48.9% {
+    background-image:url('/static/anim/running_02.png'), url('/static/anim/airplane_13.png');
+    background-position: 38.7% 95%, 99.6% 82.5%;
+    }
+    50.0% {
+    background-image:url('/static/anim/running_03.png'), url('/static/anim/airplane_14.png');
+    background-position: 38.8% 95%, 102.2% 80.6%;
+    }
+    51.1% {
+    background-image:url('/static/anim/running_04.png'), url('/static/anim/airplane_15.png');
+    background-position: 38.9% 95%, 104.8% 78.5%;
+    }
+    52.2% {
+    background-image:url('/static/anim/running_05.png'), url('/static/anim/airplane_16.png');
+    background-position: 39.0% 95%, 107.4% 76.2%;
+    }
+    53.3% {
+    background-image:url('/static/anim/running_06.png'), url('/static/anim/airplane_17.png');
+    background-position: 39.1% 95%, 110.0% 73.8%;
+    }
+    54.4% {
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_18.png');
+    background-position: 39.2% 95%, 112.6% 71.3%;
+    }
+    55.6% {
+    background-image:url('/static/anim/running_01.png'), url('/static/anim/airplane_19.png');
+    background-position: 39.2% 95%, 115.2% 68.6%;
+    }
+    56.7% {
+    background-image:url('/static/anim/standing_00.png'), url('/static/anim/airplane_20.png');
+    background-position: 39.2% 95%, 117.8% 65.8%;
+    }
+    57.8% {
+    background-image:url('/static/anim/standing_00.png'), url('/static/anim/airplane_21.png');
+    background-position: 39.2% 95%, 120.4% 62.8%;
+    }
+    58.9% {
+    background-image:url('/static/anim/standing_00.png'), url('/static/anim/airplane_22.png');
+    background-position: 39.2% 95%, 123.0% 59.6%;
+    }
+    60.0% {
+    background-image:url('/static/anim/standing_01.png'), url('/static/anim/airplane_23.png');
+    background-position: 39.2% 95%, 125.6% 56.3%;
+    }
+    61.1% {
+    background-image:url('/static/anim/standing_01.png'), url('/static/anim/airplane_24.png');
+    background-position: 39.2% 95%, 128.2% 52.9%;
+    }
+    62.2% {
+    background-image:url('/static/anim/standing_01.png'), url('/static/anim/airplane_25.png');
+    background-position: 39.2% 95%, 130.8% 49.2%;
+    }
+    63.3% {
+    background-image:url('/static/anim/standing_02.png'), url('/static/anim/airplane_26.png');
+    background-position: 39.2% 95%, 133.4% 45.4%;
+    }
+    64.4% {
+    background-image:url('/static/anim/standing_02.png'), url('/static/anim/airplane_27.png');
+    background-position: 39.2% 95%, 136.0% 41.4%;
+    }
+    65.6% {
+    background-image:url('/static/anim/standing_02.png'), url('/static/anim/airplane_28.png');
+    background-position: 39.2% 95%, 138.6% 37.3%;
+    }
+    66.7% {
+    background-image:url('/static/anim/standing_03.png'), url('/static/anim/airplane_29.png');
+    background-position: 39.2% 95%, 141.2% 33.0%;
+    }
+    67.8% {
+    background-image:url('/static/anim/standing_03.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 143.8% 28.5%;
+    }
+    68.9% {
+    background-image:url('/static/anim/standing_03.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 146.4% 24.0%;
+    }
+    70.0% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 149.0% 19.5%;
+    }
+    71.1% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 151.6% 15.0%;
+    }
+    72.2% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 154.2% 10.4%;
+    }
+    73.3% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 156.8% 5.9%;
+    }
+    74.4% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 159.4% 1.4%;
+    }
+    75.6% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 162.0% -3.1%;
+    }
+    76.7% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 164.6% -7.6%;
+    }
+    77.8% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 167.2% -12.1%;
+    }
+    78.9% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 169.8% -16.6%;
+    }
+    80.0% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 172.4% -21.1%;
+    }
+    81.1% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 175.0% -25.6%;
+    }
+    82.2% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 177.6% -30.1%;
+    }
+    83.3% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 180.2% -34.6%;
+    }
+    84.4% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 182.8% -39.1%;
+    }
+    85.6% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 185.4% -43.6%;
+    }
+    86.7% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 188.0% -48.1%;
+    }
+    87.8% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 190.6% -52.6%;
+    }
+    88.9% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 193.2% -57.1%;
+    }
+    90.0% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 195.8% -61.6%;
+    }
+    91.1% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 198.4% -66.1%;
+    }
+    92.2% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 201.0% -70.6%;
+    }
+    93.3% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 203.6% -75.1%;
+    }
+    94.4% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 206.2% -79.6%;
+    }
+    95.6% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 208.8% -84.1%;
+    }
+    96.7% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 211.4% -88.6%;
+    }
+    97.8% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 214.0% -93.1%;
+    }
+    98.9% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 216.6% -97.6%;
+    }
+    100.0% {
+    background-image:url('/static/anim/standing_04.png'), url('/static/anim/airplane_30.png');
+    background-position: 39.2% 95%, 219.2% -102.1%;
+    }
+}
+
 @-webkit-keyframes myanim {
     0.0% {
     background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
