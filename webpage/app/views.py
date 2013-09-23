@@ -205,6 +205,13 @@ def results():
     
     carriers = [x['Carrier'] for x in flightstats]
     unique_carriers = list(np.unique(np.array([item for sublist in carriers for item in sublist])))
+
+    ### remove any carriers that aren't known
+    for uc in unique_carriers:
+        if uc not in carrier_dict_code.keys():
+            print 'Removing unknown carrier "%s" from unique_carriers list.' % uc
+            unique_carriers.remove(uc)
+    
     unique_carriers = [{'name':x,'code':carrier_dict_code[x]} for x in unique_carriers]
     
     ### Render the page
