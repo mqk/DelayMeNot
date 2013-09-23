@@ -35,7 +35,7 @@ LW	Pacific Wings Airlines
 M6	Amerijet International
 MG	Champion Air
 MQ	American Eagle Airlines
-NK	Spirit Air Lines
+NK	Spirit Airlines
 NN	Northward Airlines
 NW	Northwest Airlines
 NY	New York Air
