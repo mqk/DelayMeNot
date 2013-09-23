@@ -140,14 +140,14 @@ def load_from_pickle(filename='test_dataset.pkl', gzip=True):
     import subprocess
 
     if gzip:
-        subprocess.call('gunzip %s.gz' % filename, shell=True)
+        subprocess.call(['gunzip','%s.gz' % filename])
     
     f = open(filename,'rb')
     (data_train, data_test) = cPickle.load(f)
     f.close()
 
     if gzip:
-        subprocess.call('gzip %s' % filename, shell=True)
+        subprocess.call(['gzip', filename])
     
     return (data_train, data_test)
 
