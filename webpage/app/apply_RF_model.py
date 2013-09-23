@@ -17,6 +17,7 @@ def apply_RF_model(flights, origin, destination):
 
     ### *** Origin model ***
     Pdelay_orig = {}
+    model_summary_orig = {}
 
     filename = 'RandomForest_models/by_origin/rfm_%s.pkl' % origin
     if os.path.isfile(filename):

@@ -9,7 +9,7 @@ import my_utils as mu
 def index():    
 
     ### create a list airport and carrier names
-    airport_dict_name, _ = mu.read_airport_dict()
+    airport_dict_name, _, _ = mu.read_airport_dict()
     airports = ['%s - %s' % (v,k) for k,v in airport_dict_name.iteritems()]
     carrier_dict_name, _ = mu.read_carrier_dict()
     carriers = ['%s - %s' % (v,k) for k,v in carrier_dict_name.iteritems()]
