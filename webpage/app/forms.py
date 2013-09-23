@@ -7,7 +7,7 @@ import my_utils as mu
 
 class LookingForFlightForm(Form):
 
-    airport_dict_name, _ = mu.read_airport_dict()
+    airport_dict_name, _, _ = mu.read_airport_dict()
     airports = ['%s - %s' % (v,k) for k,v in airport_dict_name.iteritems()]
     airport_values = airport_dict_name.keys() + airport_dict_name.values() + airports
     airport_validator = AnyOf(airport_values, message=u'Invalid input, must be an airport name.')
