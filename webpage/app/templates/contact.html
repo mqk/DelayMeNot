@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+{% block content %}
+    
+    <div class="page-header">
+      <h1>Hi there!</h1>
+      <p class="lead"> I'm <b>Mike Kuhlen</b>, and here's a few ways to get in touch with me. </p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        
+        <div id="my_contact"> 
+          <ul class="list-group">
+            <li class="list-group-item">
+              <i class="icon-fixed-width icon-envelope-alt icon-large"></i> Email: <span class="label label-info" disabled="disabled">kuhlen <i>at</i> gmail <i>dot</i> com</span>
+            </li>
+            <li class="list-group-item">
+              <i class="icon-fixed-width icon-mobile-phone icon-large"></i> Cell: <span class="label label-info" disabled="disabled">(831) 588-1468</span>
+            </li>
+            <li class="list-group-item">
+              <i class="icon-fixed-width icon-linkedin icon-large" style="color:#0195c2"></i> LinkedIn: <span class="label label-info"><a href="https://linkedin.com/in/mikekuhlen" target="_blank">mikekuhlen</a></span>
+            </li>
+            <li class="list-group-item">
+              <i class="icon-fixed-width icon-google-plus icon-large" style="color:#c93f2e"></i> Google+: <span class="label label-info"><a href="https://plus.google.com/115156844234793759472/posts" target="_blank">kuhlen</a></span>
+            </li>
+            <li class="list-group-item">
+              <i class="icon-fixed-width icon-twitter icon-large" style="color:#00aced"></i> Twitter: <span class="label label-info"><a href="https://twitter.com/emqueuekay" target="_blank">@emqueuekay</a></span>
+            </li>
+          </ul>
+        </div>
+
+        <img src="/static/img/Kuhlen_Michael.png" alt="A QR code for my contact info." width="200px" class="img-thumbnail" style="display:block; margin:auto">
+
+        
+      </div>
+      
+      <div class="col-md-6">
+
+        <img src="/static/img/mqk.jpg" alt="A photo of myself." width="100%" class="img-rounded" style="box-shadow: 6px 6px 5px #888888">
+
+        <p>
+        <a href="/static/doc/kuhlen_resume.pdf" class="btn btn-info btn-lg btn-block" style="margin-top:25px" target="_blank">Click here for a PDF of my résumé</a>
+        </p>
+
+      </div>
+
+    </div>
+
+
+
+{% endblock %}
+
+
