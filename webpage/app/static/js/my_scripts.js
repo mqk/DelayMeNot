@@ -57,6 +57,16 @@ $(document).ready(
 	    }
 	);
 
+        /*
+        $("#toggle_animation").click(function() {    
+            $(".jumbotron").css('-webkit-animation-play-state', function(i, v) {
+                return v === 'paused' ? 'running' : 'paused';        
+            });
+
+            $(this).toggleClass('icon-pause icon-play');
+        });
+        */
+
         $('#carrier_all').click(function() {
             $(this).addClass("toggled-on");
             $('.carrier_single').removeClass("toggled-on");

@@ -24,15 +24,18 @@
     background-position: 5% 95%;
 */
 
-    background-image:url('/static/img/running_00.png'), url('/static/img/airplane_00.png');
+    background-image:url('/static/anim/running_00.png'), url('/static/anim/airplane_00.png');
     background-position: 5% 95%, 50% 95%;
 
     background-repeat: no-repeat, no-repeat;
     background-size: 2.5%, 30%;
 
-    animation: myanim 4s linear 0s infinite  normal;
-    -moz-animation: myanim 4s linear 0s infinite  normal;
-    -webkit-animation: myanim 4s linear 0s infinite  normal;
+/*    animation: myanim 4s linear 0s 2  normal; */
+    -moz-animation: myanim 4s linear 0s 2  normal;
+    -webkit-animation: myanim 4s linear 0s 2  normal;
+
+    -webkit-animation-fill-mode: backwards;
+
 }
 
 /*
