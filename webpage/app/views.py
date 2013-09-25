@@ -68,7 +68,7 @@ def index():
         elif form2.carrier.data in carrier_dict_name.values():
             carrier = carrier_dict_name[form2.carrier.data]
         elif form2.carrier.data in carriers:
-            carrier = form2.carrier.data[-3:]
+            carrier = form2.carrier.data[-2:]
         else:
             ## should never get here, since the form was validated...
             raise RuntimeError("Problems...")
@@ -125,9 +125,11 @@ def results():
         _, carrier_dict_code = mu.read_carrier_dict()
 
         request_info['mode'] = 1
-        request_info['carrier'] = carrier_dict_code[request.args['carrier']]
+        request_info['carrier'] = request.args['carrier']
         request_info['flightnumber'] = int(request.args['flightnumber'])
 
+    print request_info
+        
 
     ### get cached results, if available (return None if not found)
     cached_results = c.get_cached_results(request_info)
