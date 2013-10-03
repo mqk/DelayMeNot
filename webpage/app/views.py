@@ -235,3 +235,8 @@ def about():
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
+
+@app.route('/static_results')
+def static_results():
+    return render_template('static_results.html')
+
