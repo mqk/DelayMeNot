@@ -70,6 +70,8 @@ def get_flightstats_json(request_info):
         flightschedule_json = json.load(f)
         f.close()
 
+        print flightschedule_json['scheduledFlights']
+        
         request_info['origin'] = flightschedule_json['scheduledFlights'][0]['departureAirportFsCode']
         request_info['destination'] = flightschedule_json['scheduledFlights'][0]['arrivalAirportFsCode']
             
