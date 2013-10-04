@@ -149,36 +149,5 @@ $(document).ready(
             show_filtered_table_rows();
         });
 
-        $('#static_results_next').click(function() {
-            if ($(".static_result").hasClass("image1")) {
-                $(".static_result").toggleClass("image1 image2");
-                $(".static_result").attr("src","/static/img/results2.png");
-
-                $("#static_results_prev").show();
-                $("#static_results_next").show();
-            } else if ($(".static_result").hasClass("image2")) {
-                $(".static_result").toggleClass("image2 image3");
-                $(".static_result").attr("src","/static/img/results3.png");
-
-                $("#static_results_next").hide();
-            }
-        });
-
-        $('#static_results_prev').click(function() {
-            if ($(".static_result").hasClass("image2")) {
-                $(".static_result").toggleClass("image2 image1");
-                $(".static_result").attr("src","/static/img/results1.png");
-
-                $("#static_results_prev").hide();
-            } else if ($(".static_result").hasClass("image3")) {
-                $(".static_result").toggleClass("image3 image2");
-                $(".static_result").attr("src","/static/img/results2.png");
-
-                $("#static_results_prev").show();
-                $("#static_results_next").show();
-            }
-        });
-
-
     }
 ); 

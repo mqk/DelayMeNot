@@ -8,6 +8,41 @@
     <i class="icon-chevron-right icon-3x" style="position: fixed; right:8%;" id="static_results_next"></i>
     <i class="icon-chevron-left icon-3x" style="position: fixed; left:8%; display:none" id="static_results_prev"></i>
 
+
+    <script>
+
+      $('#static_results_next').click(function() {
+            if ($(".static_result").hasClass("image1")) {
+                $(".static_result").toggleClass("image1 image2");
+                $(".static_result").attr("src","/static/img/results2.png");
+
+                $("#static_results_prev").show();
+                $("#static_results_next").show();
+            } else if ($(".static_result").hasClass("image2")) {
+                $(".static_result").toggleClass("image2 image3");
+                $(".static_result").attr("src","/static/img/results3.png");
+
+                $("#static_results_next").hide();
+            }
+        });
+
+        $('#static_results_prev').click(function() {
+            if ($(".static_result").hasClass("image2")) {
+                $(".static_result").toggleClass("image2 image1");
+                $(".static_result").attr("src","/static/img/results1.png");
+
+                $("#static_results_prev").hide();
+            } else if ($(".static_result").hasClass("image3")) {
+                $(".static_result").toggleClass("image3 image2");
+                $(".static_result").attr("src","/static/img/results2.png");
+
+                $("#static_results_prev").show();
+                $("#static_results_next").show();
+            }
+        });
+
+    </script>
+
 {% endblock %}
 
 
